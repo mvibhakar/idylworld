@@ -15,9 +15,9 @@ import styled from "styled-components";
 export const Connected = () => {
     return (
         <Main>
-            <VariableHeightSection>
+            <VariableHeightSection first={true}>
                 <ContentContainer>
-                    <SectionHeader color={blue}>Our Exceptional Pune West Location</SectionHeader>
+                    <SectionHeader color={blue}>Idylworld is Connected</SectionHeader>
                     <Text>
                         Idylworld finds itself on the western side of Pune (IN) off the Pune-Lavasa road in Botharwadi
                         village. The site is sprawled across 320 acres. Geographically, this region straddles the
@@ -109,6 +109,7 @@ export const Connected = () => {
                         <br />
                         Aastha Orthopaedic and Pediatric Hospital
                         <br />
+                        <br />
                         <b>20 Minutes Away</b>
                         <br />
                         Dynaneshwari Hospital
@@ -119,9 +120,11 @@ export const Connected = () => {
                         <br />
                         Mulshi Multispecialty Hospital
                         <br />
+                        <br />
                         <b>30 Minutes Away</b>
                         <br />
                         Asian Speciality Hospital
+                        <br />
                         <br />
                         <b>35 to 40 Minutes Away</b>
                         <br />
@@ -133,13 +136,122 @@ export const Connected = () => {
                         <br />
                         Sahyadri Hospital
                         <br />
+                        <br />
                         <b>45 Minutes Away</b>
                         <br />
                         Ruby Hall General Hospital
                         <br />
-                        50 Minutes Away
+                        <br />
+                        <b>50 Minutes Away</b>
                         <br />
                         Jupiter Hospital
+                    </Text>
+                </ContentContainer>
+            </VariableHeightSection>
+            <VariableHeightSection>
+                <ContentContainer>
+                    <SectionHeader color={blue}>Nearby Schools</SectionHeader>
+                    <Text>
+                        <b>20-25 Minutes Away</b>
+                        <br />
+                        Indus International School
+                        <br />
+                        Sanskriti School
+                        <br />
+                        Heritage International School
+                        <br />
+                        Mount Litera Zee School Hinjawadi
+                        <br />
+                        <br />
+                        <b>30-35 Minutes Away</b>
+                        <br />
+                        Avatar Academy
+                        <br />
+                        Sri Sri Ravi Shankar Vidya Mandir
+                        <br />
+                        Rainbow International
+                        <br />
+                        <br />
+                        <b>40-45 Minutes Away</b>
+                        <br />
+                        Vidya Valley School
+                        <br />
+                        Mahindra World School
+                        <br />
+                        Ryan International School
+                        <br />
+                        Mahindra International School
+                        <br />
+                        Edify International School
+                        <br />
+                        Sayadhri International School
+                        <br />
+                        Pawar Public School
+                        <br />
+                        Global Indian International School
+                        <br />
+                        New India School
+                        <br />
+                        City International School
+                        <br />
+                        Mahesh Vidyalaya English Medium
+                        <br />
+                        <br />
+                        <b>50-60 Minutes Away</b>
+                        <br />
+                        Akshara International School
+                        <br />
+                        The Ecole Heritage School
+                        <br />
+                        Millenium National School
+                        <br />
+                        Jyotirmay International School
+                    </Text>
+                </ContentContainer>
+            </VariableHeightSection>
+            <VariableHeightSection>
+                <ContentContainer>
+                    <SectionHeader color={blue}>Nearby Colleges</SectionHeader>
+                    <Text>
+                        <b>15-25 Minutes Away</b>
+                        <br />
+                        Pune Institue of Business Management
+                        <br />
+                        Bharati Vidyapeeth College Of Engineering
+                        <br />
+                        VIT's PVP College of Architecture
+                        <br />
+                        Liberty Institute of Fashion Technology
+                        <br />
+                        Symbiosis Institute of Skill Development
+                        <br />
+                        <br />
+                        <b>30-35 Minutes Away</b>
+                        <br />
+                        Indian Institue of Cost and Management
+                        <br />
+                        Ambrosia Institue of Hotel Management
+                        <br />
+                        Padmabhushan Vasantdada Patil Institute Of Technology
+                        <br />
+                        Modern College of Agriculture Biotechnology
+                        <br />
+                        FLAME University
+                        <br />
+                        <br />
+                        <b>40-45 Minutes Away</b>
+                        <br />
+                        International Institute of Information Technology
+                        <br />
+                        Symbiosis Institute Of International Business
+                        <br />
+                        Symbiosis Centre for Management and Human Resource Development
+                        <br />
+                        International School of Business & Media
+                        <br />
+                        Symbiosis International (Deemed University)
+                        <br />
+                        Mahindra United World College
                     </Text>
                 </ContentContainer>
             </VariableHeightSection>

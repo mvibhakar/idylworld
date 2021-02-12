@@ -14,7 +14,7 @@ export const SmallIcon = styled.img`
 
 export const Text = styled.div`
     text-align: ${(props) => props.align ?? "center"};
-    font-size: 16px;
+    font-size: 14px;
     font-weight: ${(props) => props.weight ?? "500"};
     font-family: "Montserrat", sans-serif;
 
@@ -38,13 +38,13 @@ export const Main = styled.main`
 
 export const VariableHeightSection = styled.div`
     width: 100%;
-    padding: 40px 0;
+    padding: ${(props) => (props.first ? "10px 0" : "40px 0")};
     display: flex;
     flex-direction: column;
     align-items: center;
 
     @media (min-width: ${breakpoint}) {
-        padding: 100px 0;
+        padding: ${(props) => (props.first ? "40px 0" : "100px 0")};
     }
 `;
 
