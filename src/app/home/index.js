@@ -56,6 +56,7 @@ export const Home = () => {
             </VariableHeightSection>
             <LargeScreenOnly>
                 <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
+                    <SectionHeader color={yellow}>Meet Idylworld</SectionHeader>
                     <Video
                         fluid={false}
                         playsInline
@@ -72,7 +73,7 @@ export const Home = () => {
             <VariableHeightSection>
                 <ContentContainer>
                     <ScrollAnimation animateIn="fadeIn" animateOnce={true} duration={2}>
-                        <SectionHeader color={yellow}>Meet Our Team</SectionHeader>
+                        <SectionHeader color={yellow}>About Our Team</SectionHeader>
                         <SectionSubHeader>Ashish Vibhakar</SectionSubHeader>
                         <Text>
                             Mr. Vibhakar is an entrepreneur since 1989, having built multiple companies in the USA and

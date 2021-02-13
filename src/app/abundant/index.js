@@ -27,6 +27,18 @@ export const Abundant = () => {
                 <ContentContainer>
                     <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                         <SectionHeader color={green}>Idylworld is Abundant</SectionHeader>
+                        <ContentImage
+                            src="https://idylworld-static.sgp1.digitaloceanspaces.com/abundance.png"
+                            alt="idylworld nature"
+                            style={{ marginTop: "0px" }}
+                        />
+                    </ScrollAnimation>
+                </ContentContainer>
+            </VariableHeightSection>
+            <VariableHeightSection>
+                <ContentContainer>
+                    <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
+                        <SectionHeader color={green}>Nature at Its Best</SectionHeader>
                         <IconInfoItemContainer>
                             <IconInfoItem color="yellow" title="sunlight" width="350px">
                                 Idylworld has abundant sunlight to power your home and grow your food, but since we are
@@ -59,6 +71,7 @@ export const Abundant = () => {
             </VariableHeightSection>
             <LargeScreenOnly>
                 <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
+                    <SectionHeader color={green}>Our Beautiful Site</SectionHeader>
                     <Video
                         fluid={false}
                         playsInline

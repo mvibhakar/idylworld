@@ -1,6 +1,5 @@
 import React from "react";
 import { blue } from "../../utils";
-import { Carousel } from "antd";
 import {
     Main,
     VariableHeightSection,
@@ -8,10 +7,8 @@ import {
     SectionHeader,
     SectionSubHeader,
     ContentContainer,
-    CarouselImage,
     ContentImage,
 } from "../_shared";
-import styled from "styled-components";
 import ScrollAnimation from "react-animate-on-scroll";
 
 export const Connected = () => {
@@ -26,7 +23,10 @@ export const Connected = () => {
                             Botharwadi village. The site is sprawled across 320 acres. Geographically, this region
                             straddles the beginning of the Western Ghats outside Pune City.
                         </SectionSubHeader>
-                        <ContentImage src="https://idylworld-static.sgp1.digitaloceanspaces.com/puneisgoingwestlargeimage.png" />
+                        <ContentImage
+                            src="https://idylworld-static.sgp1.digitaloceanspaces.com/puneisgoingwestlargeimage.png"
+                            alt="pune map"
+                        />
                     </ScrollAnimation>
                 </ContentContainer>
             </VariableHeightSection>

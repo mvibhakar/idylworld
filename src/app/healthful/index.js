@@ -1,6 +1,5 @@
 import React from "react";
 import { orange } from "../../utils";
-import { Carousel } from "antd";
 import {
     Main,
     VariableHeightSection,
@@ -8,17 +7,10 @@ import {
     SectionHeader,
     SectionSubHeader,
     ContentContainer,
-    CarouselImage,
-    ContentImage,
     IconInfoItemContainer,
-    LargeScreenOnly,
-    Video,
 } from "../_shared";
-import styled from "styled-components";
 import { IconInfoItem } from "../_shared/IconInfoItem";
-import { ControlBar } from "video-react";
 import ScrollAnimation from "react-animate-on-scroll";
-import "video-react/dist/video-react.css";
 
 export const Healthful = () => {
     return (
