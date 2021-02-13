@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Home } from "./home";
 // import Orchards from "./orchards";
 import { Connected } from "./connected";
-// import Abundant from "./abundant";
+import { Abundant } from "./abundant";
 // import Healthful from "./healthful";
 import { Navbar } from "./_shared/Navbar";
 import { Footer } from "./_shared/Footer";
@@ -43,7 +43,7 @@ function App() {
                             </ViewWrapper>
                         )}
                     />
-                    {/* <Route
+                    <Route
                         path="/abundant"
                         exact
                         component={() => (
@@ -52,7 +52,7 @@ function App() {
                             </ViewWrapper>
                         )}
                     />
-                    <Route
+                    {/* <Route
                         path="/healthful"
                         exact
                         component={() => (

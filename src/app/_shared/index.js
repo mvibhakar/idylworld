@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { backgroundBeigeColor, breakpoint } from "../../utils";
+import { Player } from "video-react";
 
 export const Icon = styled.img`
     width: 24px;
@@ -34,6 +35,10 @@ export const Main = styled.main`
     margin-top: 70px;
     background: ${backgroundBeigeColor};
     width: 100%;
+
+    @media (min-width: ${breakpoint}) {
+        margin-top: 110px;
+    }
 `;
 
 export const VariableHeightSection = styled.div`
@@ -44,7 +49,7 @@ export const VariableHeightSection = styled.div`
     align-items: center;
 
     @media (min-width: ${breakpoint}) {
-        padding: ${(props) => (props.first ? "40px 0" : "100px 0")};
+        padding: ${(props) => (props.first ? "60px 0" : "100px 0")};
     }
 `;
 
@@ -53,6 +58,10 @@ export const FullscreenSection = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media (min-width: ${breakpoint}) {
+        height: calc(100vh - 110px);
+    }
 `;
 
 export const LargeScreenOnly = styled(VariableHeightSection)`
@@ -105,4 +114,24 @@ export const CarouselContainer = styled.div`
 
 export const CarouselImage = styled.img`
     width: 100%;
+`;
+
+export const ContentImage = styled.img`
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 40px;
+`;
+
+export const IconInfoItemContainer = styled.div`
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row wrap;
+    justify-content: space-around;
+`;
+
+export const Video = styled(Player)`
+    :focus {
+        outline: none !important;
+    }
 `;

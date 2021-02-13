@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Text } from "../_shared";
 import {
+    backgroundBeigeColor,
     blueGradientBottom,
     blueGradientTop,
     breakpoint,
@@ -9,14 +10,20 @@ import {
     greenGradientTop,
     orangeGradientBottom,
     orangeGradientTop,
+    yellowGradientTop,
+    yellowGradientBottom,
+    brownGradientTop,
+    brownGradientBottom,
     S3Key,
 } from "../../utils";
 
-export const IconInfoItem = ({ color, title, children }) => {
+export const IconInfoItem = ({ color, title, width, children }) => {
+    const blank = width && !title ? true : false;
+
     return (
-        <IconInfoConatiner>
-            <ColorContainer color={color}>
-                <Pictogram src={S3Key + title + ".png"} alt={title} />
+        <IconInfoConatiner width={width} blank={blank}>
+            <ColorContainer color={color} width={width}>
+                {title && <Pictogram src={S3Key + title + ".png"} alt={title} />}
             </ColorContainer>
             <H3>{title}</H3>
             <Text>{children}</Text>
@@ -25,11 +32,13 @@ export const IconInfoItem = ({ color, title, children }) => {
 };
 
 const IconInfoConatiner = styled.div`
-    width: 200px;
+    width: ${(props) => props.width};
     min-height: 300px;
     margin: 20px;
+    display: ${(props) => (props.blank ? "none" : "block")};
 
     @media (min-width: ${breakpoint}) {
+        display: block;
     }
 `;
 
@@ -40,11 +49,17 @@ const getGradient = (color) => {
         return "linear-gradient(" + greenGradientTop + ", " + greenGradientBottom + ")";
     } else if (color === "orange") {
         return "linear-gradient(" + orangeGradientTop + ", " + orangeGradientBottom + ")";
+    } else if (color === "yellow") {
+        return "linear-gradient(" + yellowGradientTop + ", " + yellowGradientBottom + ")";
+    } else if (color === "brown") {
+        return "linear-gradient(" + brownGradientTop + ", " + brownGradientBottom + ")";
+    } else {
+        return backgroundBeigeColor;
     }
 };
 
 const ColorContainer = styled.div`
-    width: 200px;
+    width: ${(props) => props.width};
     height: 200px;
     background: ${(props) => getGradient(props.color)};
     display: flex;
@@ -53,8 +68,8 @@ const ColorContainer = styled.div`
 `;
 
 const Pictogram = styled.img`
-    width: 160px;
-    height: 160px;
+    width: 140px;
+    height: 140px;
 `;
 
 const H3 = styled.h3`
@@ -64,4 +79,6 @@ const H3 = styled.h3`
     font-size: 14px;
     color: rgba(0, 0, 0, 0.5);
     font-family: "Work Sans", sans-serif;
+    letter-spacing: 2px;
+    font-weight: 600;
 `;

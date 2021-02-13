@@ -11,6 +11,10 @@ export const greenGradientTop = "#5CBA48";
 export const greenGradientBottom = "#088041";
 export const orangeGradientTop = "#F7AB1B";
 export const orangeGradientBottom = "#DC5C1D";
+export const yellowGradientTop = "#FFE092";
+export const yellowGradientBottom = "#FFBC00";
+export const brownGradientTop = "#C89263";
+export const brownGradientBottom = "#724823";
 
 export const breakpoint = "900px";
 export const S3Key = "https://idylworld-static.sgp1.digitaloceanspaces.com/";

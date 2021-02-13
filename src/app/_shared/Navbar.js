@@ -3,10 +3,12 @@ import { backgroundBeigeColor, breakpoint, idylworldTextColor, S3Key } from "../
 import { useHistory } from "react-router-dom";
 import styled from "styled-components";
 import { Drawer } from "antd";
-import { Icon } from "../_shared/index";
+import { Icon, SmallIcon } from "../_shared/index";
 const MenuBlackIcon = S3Key + "menu-black.png";
 const CloseBlackIcon = S3Key + "close-black.png";
 const IdylworldLogo = S3Key + "idylworld-logo.png";
+const PhoneBlackIcon = S3Key + "phone-black.png";
+const EmailBlackIcon = S3Key + "email-black.png";
 
 export const Navbar = () => {
     const history = useHistory();
@@ -35,7 +37,7 @@ export const Navbar = () => {
                     <nav>
                         <NavbarLinkContainer>
                             <NavbarLink onClick={() => history.push("/connected")}>Connected</NavbarLink>
-                            <NavbarLink>Abundant</NavbarLink>
+                            <NavbarLink onClick={() => history.push("/abundant")}>Abundant</NavbarLink>
                             <NavbarLink>Healthful</NavbarLink>
                             <NavbarLink>Orchards</NavbarLink>
                         </NavbarLinkContainer>
@@ -49,30 +51,30 @@ export const Navbar = () => {
                         >
                             <ul>
                                 <NavbarLink onClick={() => history.push("/connected")}>Connected</NavbarLink>
-                                <NavbarLink>Abundant</NavbarLink>
+                                <NavbarLink onClick={() => history.push("/abundant")}>Abundant</NavbarLink>
                                 <NavbarLink>Healthful</NavbarLink>
                                 <NavbarLink>Orchards</NavbarLink>
                             </ul>
+                            <div style={{ borderTop: "1px solid black" }}>
+                                <BottomBarItem>MAHARERA P52100023443</BottomBarItem>
+                                <BottomBarItem>+91 83083 29038</BottomBarItem>
+                                <BottomBarItem>info@idylworld.com</BottomBarItem>
+                            </div>
                         </Drawer>
                     </nav>
                 </RightSection>
             </HeaderContainer>
-            <Drawer
-                placement="right"
-                closable={true}
-                onClose={closeDrawer}
-                visible={isDrawerOpen}
-                closeIcon={getCloseIcon()}
-            >
-                <nav>
-                    <ul>
-                        <NavbarLink onClick={() => history.push("/connected")}>Connected</NavbarLink>
-                        <NavbarLink>Abundant</NavbarLink>
-                        <NavbarLink>Healthful</NavbarLink>
-                        <NavbarLink>Orchards</NavbarLink>
-                    </ul>
-                </nav>
-            </Drawer>
+            <BottomBarContainer>
+                <BottomBarItem>MAHARERA P52100023443</BottomBarItem>
+                <FooterItem>
+                    <FooterItemIcon src={PhoneBlackIcon} alt="phone" side="left" />
+                    <ContentText>+91 83083 29038</ContentText>
+                </FooterItem>
+                <FooterItem>
+                    <FooterItemIcon src={EmailBlackIcon} alt="email" side="left" />
+                    <ContentText>info@idylworld.com</ContentText>
+                </FooterItem>
+            </BottomBarContainer>
         </>
     );
 };
@@ -98,6 +100,33 @@ const HeaderContainer = styled.header`
     display: flex;
     align-items: center;
     z-index: 10;
+`;
+
+const BottomBarContainer = styled.div`
+    height: 40px;
+    background: ${backgroundBeigeColor};
+    width: 100%;
+    position: fixed;
+    top: 70px;
+    left: 0;
+    display: none;
+    z-index: 10;
+
+    @media (min-width: ${breakpoint}) {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+`;
+
+const BottomBarItem = styled.div`
+    font-size: 16px;
+    margin: 20px 0;
+
+    @media (min-width: ${breakpoint}) {
+        margin: 0;
+    }
 `;
 
 const LeftSection = styled.div`
@@ -165,4 +194,19 @@ const NavbarLink = styled.li`
     @media (min-width: ${breakpoint}) {
         margin: 0 20px;
     }
+`;
+
+const ContentText = styled.div`
+    font-size: 16px;
+    font-weight: 400;
+`;
+
+const FooterItemIcon = styled(SmallIcon)`
+    margin-right: 10px;
+`;
+
+const FooterItem = styled.div`
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 `;

@@ -4,27 +4,18 @@ import {
     FullscreenSection,
     VariableHeightSection,
     H1,
-    H2,
     Text,
     SectionHeader,
     SectionSubHeader,
     ContentContainer,
     LargeScreenOnly,
+    IconInfoItemContainer,
+    Video,
 } from "../_shared";
 import { IconInfoItem } from "../_shared/IconInfoItem";
-import {
-    S3Key,
-    breakpoint,
-    yellow,
-    blueGradientTop,
-    blueGradientBottom,
-    greenGradientTop,
-    greenGradientBottom,
-    orangeGradientTop,
-    orangeGradientBottom,
-} from "../../utils";
+import { S3Key, breakpoint, yellow } from "../../utils";
 import styled from "styled-components";
-import { Player, ControlBar } from "video-react";
+import { ControlBar } from "video-react";
 import ScrollAnimation from "react-animate-on-scroll";
 import "video-react/dist/video-react.css";
 
@@ -45,17 +36,17 @@ export const Home = () => {
             <VariableHeightSection>
                 <ContentContainer>
                     <ScrollAnimation animateIn="fadeIn">
-                        <SectionHeader color={yellow}>Our Community Strives to Be</SectionHeader>
+                        <SectionHeader color={yellow}>Our Values</SectionHeader>
                         <IconInfoItemContainer>
-                            <IconInfoItem color="blue" title="connected">
+                            <IconInfoItem color="blue" title="connected" width="200px">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt ut labore et dolore magna aliqua.
                             </IconInfoItem>
-                            <IconInfoItem color="green" title="abundant">
+                            <IconInfoItem color="green" title="abundant" width="200px">
                                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
                                 commodo consequat.
                             </IconInfoItem>
-                            <IconInfoItem color="orange" title="healthful">
+                            <IconInfoItem color="orange" title="healthful" width="200px">
                                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
                                 nulla pariatur.
                             </IconInfoItem>
@@ -161,59 +152,3 @@ const ScrollButton = styled.img`
         width: 48px;
     }
 `;
-
-const Video = styled(Player)`
-    :focus {
-        outline: none !important;
-    }
-`;
-
-// const HighlightedText = styled.div`
-//     color: white;
-//     font-weight: 500;
-//     display: inline;
-//     padding: 0 5px;
-//     margin: 0px 5px;
-//     border-radius: 2px;
-// `;
-
-// const BlueHighlight = styled(HighlightedText)`
-//     background: rgba(43, 144, 247, 0.7);
-// `;
-
-// const OrangeHighlight = styled(HighlightedText)`
-//     background: rgba(247, 119, 43, 0.7);
-// `;
-
-// const GreenHighlight = styled(HighlightedText)`
-//     background: rgba(56, 152, 48, 0.7);
-// `;
-
-// const YellowHighlight = styled(HighlightedText)`
-//     background: rgba(251, 209, 89, 0.8);
-// `;
-
-// const BrownHighlight = styled(HighlightedText)`
-//     background: rgba(139, 87, 42, 0.8);
-// `;
-
-const IconInfoItemContainer = styled.div`
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row wrap;
-    justify-content: space-around;
-`;
-
-// const IconInfoItemContainer = styled.div`
-//     width: 100%;
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: space-between;
-//     align-items: center;
-
-//     @media (min-width: ${breakpoint}) {
-//         flex-direction: row;
-//         align-items: flex-start;
-//     }
-// `;
