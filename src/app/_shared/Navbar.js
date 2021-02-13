@@ -39,7 +39,7 @@ export const Navbar = () => {
                             <NavbarLink onClick={() => history.push("/connected")}>Connected</NavbarLink>
                             <NavbarLink onClick={() => history.push("/abundant")}>Abundant</NavbarLink>
                             <NavbarLink onClick={() => history.push("/healthful")}>Healthful</NavbarLink>
-                            <NavbarLink>Orchards</NavbarLink>
+                            <NavbarLink onClick={() => history.push("/orchards")}>Orchards</NavbarLink>
                         </NavbarLinkContainer>
                         <MenuButton src={MenuBlackIcon} alt="menu" onClick={openDrawer} />
                         <Drawer
@@ -53,7 +53,7 @@ export const Navbar = () => {
                                 <NavbarLink onClick={() => history.push("/connected")}>Connected</NavbarLink>
                                 <NavbarLink onClick={() => history.push("/abundant")}>Abundant</NavbarLink>
                                 <NavbarLink onClick={() => history.push("/healthful")}>Healthful</NavbarLink>
-                                <NavbarLink>Orchards</NavbarLink>
+                                <NavbarLink onClick={() => history.push("/orchards")}>Orchards</NavbarLink>
                             </ul>
                             <div style={{ borderTop: "1px solid black" }}>
                                 <BottomBarItem>MAHARERA P52100023443</BottomBarItem>

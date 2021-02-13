@@ -21,11 +21,11 @@ export const Connected = () => {
                 <ContentContainer>
                     <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                         <SectionHeader color={blue}>Idylworld is Connected</SectionHeader>
-                        <Text>
+                        <SectionSubHeader>
                             Idylworld finds itself on the western side of Pune (IN) off the Pune-Lavasa road in
                             Botharwadi village. The site is sprawled across 320 acres. Geographically, this region
                             straddles the beginning of the Western Ghats outside Pune City.
-                        </Text>
+                        </SectionSubHeader>
                         <ContentImage src="https://idylworld-static.sgp1.digitaloceanspaces.com/puneisgoingwestlargeimage.png" />
                     </ScrollAnimation>
                 </ContentContainer>
@@ -33,7 +33,7 @@ export const Connected = () => {
             <VariableHeightSection>
                 <ContentContainer>
                     <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
-                        <SectionHeader color={blue}>Connected & Accessible</SectionHeader>
+                        <SectionHeader color={blue}>Accessible & Centrally Located</SectionHeader>
                         <SectionSubHeader>Idylworld is accessible via 4 routes:</SectionSubHeader>
                         <Text>
                             <b>Hinjewadi</b>, <b>Chandani Chowk</b>, <b>Khadakwasla</b> and <b>Mulshi</b>.
@@ -51,7 +51,7 @@ export const Connected = () => {
             <VariableHeightSection>
                 <ContentContainer>
                     <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
-                        <SectionHeader color={blue}>The City of Pune</SectionHeader>
+                        <SectionHeader color={blue}>The Growth of Pune</SectionHeader>
                         <Text align="left">
                             - Ranked #1 amongst India metros in Mercer’s 2019 Quality of Living Index. <br />
                             <br />

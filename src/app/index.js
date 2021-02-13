@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 // components
 import { Home } from "./home";
-// import Orchards from "./orchards";
+import { Orchards } from "./orchards";
 import { Connected } from "./connected";
 import { Abundant } from "./abundant";
 import { Healthful } from "./healthful";
@@ -25,7 +25,7 @@ function App() {
                             </ViewWrapper>
                         )}
                     />
-                    {/* <Route
+                    <Route
                         path="/orchards"
                         exact
                         component={() => (
@@ -33,7 +33,7 @@ function App() {
                                 <Orchards />
                             </ViewWrapper>
                         )}
-                    /> */}
+                    />
                     <Route
                         path="/connected"
                         exact
