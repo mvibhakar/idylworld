@@ -47,7 +47,7 @@ export const Orchards = () => {
                                 Idylworld, which is setback 1.5km from and 100 metres above the State Highway. In your
                                 secluded property, you can have all the peace and quiet that your heart desires.
                             </IconInfoItem>
-                            <IconInfoItem color="brown" title="magnificent views" width="350px">
+                            <IconInfoItem color="orange" title="magnificent views" width="350px">
                                 Being at a higher elevation allows panoramic views of the natural environment. Having an
                                 amazing view from the comfort of your home can give you a daily dose of bliss.
                             </IconInfoItem>
@@ -55,7 +55,7 @@ export const Orchards = () => {
                                 This natural ventilation, while a source of fresh air, also aids in decreasing the
                                 energy bills of your home by becoming less reliant on artificial cooling.
                             </IconInfoItem>
-                            <IconInfoItem color="orange" title="unique architectural features" width="350px">
+                            <IconInfoItem color="brown" title="unique architectural features" width="350px">
                                 A mountain home allows the owner to be creative and customize to include certain
                                 architectural details, like a walk-out ground floor, high ceilings with exposed beams
                                 and panoramic floor-to-ceiling windows.

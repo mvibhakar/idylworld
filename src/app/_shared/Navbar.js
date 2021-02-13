@@ -30,8 +30,22 @@ export const Navbar = () => {
         <>
             <HeaderContainer>
                 <LeftSection>
-                    <IdylworldHeaderLogo src={IdylworldLogo} alt="idylworld logo" onClick={() => history.push("/")} />
-                    <IdylworldText onClick={() => history.push("/")}>Idylworld</IdylworldText>
+                    <IdylworldHeaderLogo
+                        src={IdylworldLogo}
+                        alt="idylworld logo"
+                        onClick={() => {
+                            history.push("/");
+                            window.scrollTo(0, 0);
+                        }}
+                    />
+                    <IdylworldText
+                        onClick={() => {
+                            history.push("/");
+                            window.scrollTo(0, 0);
+                        }}
+                    >
+                        Idylworld
+                    </IdylworldText>
                 </LeftSection>
                 <RightSection>
                     <nav>
