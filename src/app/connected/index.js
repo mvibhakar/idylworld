@@ -18,8 +18,8 @@ export const Connected = () => {
     return (
         <Main>
             <VariableHeightSection first={true}>
-                <ScrollAnimation animateIn="fadeIn">
-                    <ContentContainer>
+                <ContentContainer>
+                    <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                         <SectionHeader color={blue}>Idylworld is Connected</SectionHeader>
                         <Text>
                             Idylworld finds itself on the western side of Pune (IN) off the Pune-Lavasa road in
@@ -27,17 +27,12 @@ export const Connected = () => {
                             straddles the beginning of the Western Ghats outside Pune City.
                         </Text>
                         <ContentImage src="https://idylworld-static.sgp1.digitaloceanspaces.com/puneisgoingwestlargeimage.png" />
-                        {/* <CarouselContainer autoplay>
-                        <CarouselImage src="https://idylworld-static.sgp1.digitaloceanspaces.com/puneisgoingwestlargeimage.png" />
-                        <CarouselImage src="https://idylworld-static.sgp1.digitaloceanspaces.com/puneisgoingwestlargeimage.png" />
-                        <CarouselImage src="https://idylworld-static.sgp1.digitaloceanspaces.com/puneisgoingwestlargeimage.png" />
-                    </CarouselContainer> */}
-                    </ContentContainer>
-                </ScrollAnimation>
+                    </ScrollAnimation>
+                </ContentContainer>
             </VariableHeightSection>
             <VariableHeightSection>
-                <ScrollAnimation animateIn="fadeIn">
-                    <ContentContainer>
+                <ContentContainer>
+                    <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                         <SectionHeader color={blue}>Connected & Accessible</SectionHeader>
                         <SectionSubHeader>Idylworld is accessible via 4 routes:</SectionSubHeader>
                         <Text>
@@ -50,12 +45,12 @@ export const Connected = () => {
                             <b>30 Minutes</b> from Chandani Chowk & NH4 (Mumbai-Bangalore Highway) <br />
                             <b>30 Minutes</b> from Hinjawadi IT Park
                         </Text>
-                    </ContentContainer>
-                </ScrollAnimation>
+                    </ScrollAnimation>
+                </ContentContainer>
             </VariableHeightSection>
             <VariableHeightSection>
-                <ScrollAnimation animateIn="fadeIn">
-                    <ContentContainer>
+                <ContentContainer>
+                    <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                         <SectionHeader color={blue}>The City of Pune</SectionHeader>
                         <Text align="left">
                             - Ranked #1 amongst India metros in Mercer’s 2019 Quality of Living Index. <br />
@@ -71,12 +66,12 @@ export const Connected = () => {
                             <br />- 40% of its area is under green cover, pleasant climate, a booming job market and a
                             cosmopolitan vibe.
                         </Text>
-                    </ContentContainer>
-                </ScrollAnimation>
+                    </ScrollAnimation>
+                </ContentContainer>
             </VariableHeightSection>
             <VariableHeightSection>
-                <ScrollAnimation animateIn="fadeIn">
-                    <ContentContainer>
+                <ContentContainer>
+                    <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                         <SectionHeader color={blue}>Pune is Moving West</SectionHeader>
                         <Text>
                             Closer and better connected to Mumbai (India’s commercial capital), Western Pune is growing
@@ -102,12 +97,12 @@ export const Connected = () => {
                                 Infrastructure
                             </b>
                         </Text>
-                    </ContentContainer>
-                </ScrollAnimation>
+                    </ScrollAnimation>
+                </ContentContainer>
             </VariableHeightSection>
             <VariableHeightSection>
-                <ScrollAnimation animateIn="fadeIn">
-                    <ContentContainer>
+                <ContentContainer>
+                    <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                         <SectionHeader color={blue}>Nearby Hospitals</SectionHeader>
                         <Text>
                             <b>15 Minutes Away</b>
@@ -157,12 +152,12 @@ export const Connected = () => {
                             <br />
                             Jupiter Hospital
                         </Text>
-                    </ContentContainer>
-                </ScrollAnimation>
+                    </ScrollAnimation>
+                </ContentContainer>
             </VariableHeightSection>
             <VariableHeightSection>
-                <ScrollAnimation animateIn="fadeIn">
-                    <ContentContainer>
+                <ContentContainer>
+                    <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                         <SectionHeader color={blue}>Nearby Schools</SectionHeader>
                         <Text>
                             <b>20-25 Minutes Away</b>
@@ -220,12 +215,12 @@ export const Connected = () => {
                             <br />
                             Jyotirmay International School
                         </Text>
-                    </ContentContainer>
-                </ScrollAnimation>
+                    </ScrollAnimation>
+                </ContentContainer>
             </VariableHeightSection>
             <VariableHeightSection>
-                <ScrollAnimation animateIn="fadeIn">
-                    <ContentContainer>
+                <ContentContainer>
+                    <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                         <SectionHeader color={blue}>Nearby Colleges</SectionHeader>
                         <Text>
                             <b>15-25 Minutes Away</b>
@@ -268,9 +263,18 @@ export const Connected = () => {
                             <br />
                             Mahindra United World College
                         </Text>
-                    </ContentContainer>
-                </ScrollAnimation>
+                    </ScrollAnimation>
+                </ContentContainer>
             </VariableHeightSection>
         </Main>
     );
 };
+
+// keep this here for the future
+{
+    /* <CarouselContainer autoplay>
+                        <CarouselImage src="https://idylworld-static.sgp1.digitaloceanspaces.com/puneisgoingwestlargeimage.png" />
+                        <CarouselImage src="https://idylworld-static.sgp1.digitaloceanspaces.com/puneisgoingwestlargeimage.png" />
+                        <CarouselImage src="https://idylworld-static.sgp1.digitaloceanspaces.com/puneisgoingwestlargeimage.png" />
+                    </CarouselContainer> */
+}

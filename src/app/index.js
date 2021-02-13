@@ -6,7 +6,7 @@ import { Home } from "./home";
 // import Orchards from "./orchards";
 import { Connected } from "./connected";
 import { Abundant } from "./abundant";
-// import Healthful from "./healthful";
+import { Healthful } from "./healthful";
 import { Navbar } from "./_shared/Navbar";
 import { Footer } from "./_shared/Footer";
 // import Community from "./community";
@@ -52,7 +52,7 @@ function App() {
                             </ViewWrapper>
                         )}
                     />
-                    {/* <Route
+                    <Route
                         path="/healthful"
                         exact
                         component={() => (
@@ -61,7 +61,7 @@ function App() {
                             </ViewWrapper>
                         )}
                     />
-                    <Route
+                    {/* <Route
                         path="/community"
                         exact
                         component={() => (

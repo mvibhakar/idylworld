@@ -24,8 +24,8 @@ export const Abundant = () => {
     return (
         <Main>
             <VariableHeightSection first={true}>
-                <ScrollAnimation animateIn="fadeIn">
-                    <ContentContainer>
+                <ContentContainer>
+                    <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                         <SectionHeader color={green}>Idylworld is Abundant</SectionHeader>
                         <IconInfoItemContainer>
                             <IconInfoItem color="yellow" title="sunlight" width="350px">
@@ -54,11 +54,11 @@ export const Abundant = () => {
                             </IconInfoItem>
                             <IconInfoItem width="350px" />
                         </IconInfoItemContainer>
-                    </ContentContainer>
-                </ScrollAnimation>
+                    </ScrollAnimation>
+                </ContentContainer>
             </VariableHeightSection>
             <LargeScreenOnly>
-                <ScrollAnimation animateIn="fadeIn">
+                <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                     <Video
                         fluid={false}
                         playsInline

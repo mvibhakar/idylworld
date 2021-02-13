@@ -77,7 +77,7 @@ const H3 = styled.h3`
     padding: 0;
     text-transform: uppercase;
     font-size: 14px;
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.4);
     font-family: "Work Sans", sans-serif;
     letter-spacing: 2px;
     font-weight: 600;

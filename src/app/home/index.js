@@ -35,8 +35,8 @@ export const Home = () => {
             </HeroSection>
             <VariableHeightSection>
                 <ContentContainer>
-                    <ScrollAnimation animateIn="fadeIn">
-                        <SectionHeader color={yellow}>Our Values</SectionHeader>
+                    <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
+                        <SectionHeader color={yellow}>Idylworld Strives To Be</SectionHeader>
                         <IconInfoItemContainer>
                             <IconInfoItem color="blue" title="connected" width="200px">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -55,7 +55,7 @@ export const Home = () => {
                 </ContentContainer>
             </VariableHeightSection>
             <LargeScreenOnly>
-                <ScrollAnimation animateIn="fadeIn">
+                <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                     <Video
                         fluid={false}
                         playsInline
@@ -71,7 +71,7 @@ export const Home = () => {
             </LargeScreenOnly>
             <VariableHeightSection>
                 <ContentContainer>
-                    <ScrollAnimation animateIn="fadeIn" duration={2}>
+                    <ScrollAnimation animateIn="fadeIn" animateOnce={true} duration={2}>
                         <SectionHeader color={yellow}>Meet Our Team</SectionHeader>
                         <SectionSubHeader>Ashish Vibhakar</SectionSubHeader>
                         <Text>

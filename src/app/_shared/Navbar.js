@@ -38,7 +38,7 @@ export const Navbar = () => {
                         <NavbarLinkContainer>
                             <NavbarLink onClick={() => history.push("/connected")}>Connected</NavbarLink>
                             <NavbarLink onClick={() => history.push("/abundant")}>Abundant</NavbarLink>
-                            <NavbarLink>Healthful</NavbarLink>
+                            <NavbarLink onClick={() => history.push("/healthful")}>Healthful</NavbarLink>
                             <NavbarLink>Orchards</NavbarLink>
                         </NavbarLinkContainer>
                         <MenuButton src={MenuBlackIcon} alt="menu" onClick={openDrawer} />
@@ -52,7 +52,7 @@ export const Navbar = () => {
                             <ul>
                                 <NavbarLink onClick={() => history.push("/connected")}>Connected</NavbarLink>
                                 <NavbarLink onClick={() => history.push("/abundant")}>Abundant</NavbarLink>
-                                <NavbarLink>Healthful</NavbarLink>
+                                <NavbarLink onClick={() => history.push("/healthful")}>Healthful</NavbarLink>
                                 <NavbarLink>Orchards</NavbarLink>
                             </ul>
                             <div style={{ borderTop: "1px solid black" }}>
