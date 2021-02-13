@@ -36,10 +36,38 @@ export const Navbar = () => {
                 <RightSection>
                     <nav>
                         <NavbarLinkContainer>
-                            <NavbarLink onClick={() => history.push("/connected")}>Connected</NavbarLink>
-                            <NavbarLink onClick={() => history.push("/abundant")}>Abundant</NavbarLink>
-                            <NavbarLink onClick={() => history.push("/healthful")}>Healthful</NavbarLink>
-                            <NavbarLink onClick={() => history.push("/orchards")}>Orchards</NavbarLink>
+                            <NavbarLink
+                                onClick={() => {
+                                    history.push("/connected");
+                                    window.scrollTo(0, 0);
+                                }}
+                            >
+                                Connected
+                            </NavbarLink>
+                            <NavbarLink
+                                onClick={() => {
+                                    history.push("/abundant");
+                                    window.scrollTo(0, 0);
+                                }}
+                            >
+                                Abundant
+                            </NavbarLink>
+                            <NavbarLink
+                                onClick={() => {
+                                    history.push("/healthful");
+                                    window.scrollTo(0, 0);
+                                }}
+                            >
+                                Healthful
+                            </NavbarLink>
+                            <NavbarLink
+                                onClick={() => {
+                                    history.push("/orchards");
+                                    window.scrollTo(0, 0);
+                                }}
+                            >
+                                Orchards
+                            </NavbarLink>
                         </NavbarLinkContainer>
                         <MenuButton src={MenuBlackIcon} alt="menu" onClick={openDrawer} />
                         <Drawer
@@ -50,10 +78,38 @@ export const Navbar = () => {
                             closeIcon={getCloseIcon()}
                         >
                             <ul>
-                                <NavbarLink onClick={() => history.push("/connected")}>Connected</NavbarLink>
-                                <NavbarLink onClick={() => history.push("/abundant")}>Abundant</NavbarLink>
-                                <NavbarLink onClick={() => history.push("/healthful")}>Healthful</NavbarLink>
-                                <NavbarLink onClick={() => history.push("/orchards")}>Orchards</NavbarLink>
+                                <NavbarLink
+                                    onClick={() => {
+                                        history.push("/connected");
+                                        window.scrollTo(0, 0);
+                                    }}
+                                >
+                                    Connected
+                                </NavbarLink>
+                                <NavbarLink
+                                    onClick={() => {
+                                        history.push("/abundant");
+                                        window.scrollTo(0, 0);
+                                    }}
+                                >
+                                    Abundant
+                                </NavbarLink>
+                                <NavbarLink
+                                    onClick={() => {
+                                        history.push("/healthful");
+                                        window.scrollTo(0, 0);
+                                    }}
+                                >
+                                    Healthful
+                                </NavbarLink>
+                                <NavbarLink
+                                    onClick={() => {
+                                        history.push("/orchards");
+                                        window.scrollTo(0, 0);
+                                    }}
+                                >
+                                    Orchards
+                                </NavbarLink>
                             </ul>
                             <div style={{ borderTop: "1px solid black" }}>
                                 <BottomBarItem>MAHARERA P52100023443</BottomBarItem>
