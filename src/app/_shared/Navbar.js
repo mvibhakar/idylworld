@@ -1,5 +1,15 @@
 import React, { useState } from "react";
-import { backgroundBeigeColor, breakpoint, idylworldTextColor, S3Key } from "../../utils";
+import {
+    backgroundBeigeColor,
+    blue,
+    breakpoint,
+    brown,
+    green,
+    idylworldTextColor,
+    orange,
+    S3Key,
+    yellow,
+} from "../../utils";
 import { useHistory } from "react-router-dom";
 import styled from "styled-components";
 import { Drawer } from "antd";
@@ -13,6 +23,8 @@ const EmailBlackIcon = S3Key + "email-black.png";
 export const Navbar = () => {
     const history = useHistory();
     const [isDrawerOpen, updateIsDrawerOpen] = useState(false);
+    const path = window.location.pathname;
+    console.log(path);
 
     const openDrawer = () => {
         updateIsDrawerOpen(true);
@@ -51,6 +63,8 @@ export const Navbar = () => {
                     <nav>
                         <NavbarLinkContainer>
                             <NavbarLink
+                                bold={path === "/community"}
+                                color={path === "/community" ? yellow : "black"}
                                 onClick={() => {
                                     history.push("/community");
                                     window.scrollTo(0, 0);
@@ -59,6 +73,8 @@ export const Navbar = () => {
                                 Community
                             </NavbarLink>
                             <NavbarLink
+                                bold={path === "/connected"}
+                                color={path === "/connected" ? blue : "black"}
                                 onClick={() => {
                                     history.push("/connected");
                                     window.scrollTo(0, 0);
@@ -67,6 +83,8 @@ export const Navbar = () => {
                                 Connected
                             </NavbarLink>
                             <NavbarLink
+                                bold={path === "/abundant"}
+                                color={path === "/abundant" ? green : "black"}
                                 onClick={() => {
                                     history.push("/abundant");
                                     window.scrollTo(0, 0);
@@ -75,6 +93,8 @@ export const Navbar = () => {
                                 Abundant
                             </NavbarLink>
                             <NavbarLink
+                                bold={path === "/healthful"}
+                                color={path === "/healthful" ? orange : "black"}
                                 onClick={() => {
                                     history.push("/healthful");
                                     window.scrollTo(0, 0);
@@ -83,6 +103,8 @@ export const Navbar = () => {
                                 Healthful
                             </NavbarLink>
                             <NavbarLink
+                                bold={path === "/orchards"}
+                                color={path === "/orchards" ? brown : "black"}
                                 onClick={() => {
                                     history.push("/orchards");
                                     window.scrollTo(0, 0);
@@ -91,6 +113,8 @@ export const Navbar = () => {
                                 Orchards
                             </NavbarLink>
                             <NavbarLink
+                                bold={path === "/bungalow"}
+                                color={path === "/bungalow" ? yellow : "black"}
                                 onClick={() => {
                                     history.push("/bungalow");
                                     window.scrollTo(0, 0);
@@ -109,6 +133,8 @@ export const Navbar = () => {
                         >
                             <ul>
                                 <NavbarLink
+                                    bold={path === "/community"}
+                                    color={path === "/community" ? yellow : "black"}
                                     onClick={() => {
                                         history.push("/community");
                                         window.scrollTo(0, 0);
@@ -117,6 +143,8 @@ export const Navbar = () => {
                                     Community
                                 </NavbarLink>
                                 <NavbarLink
+                                    bold={path === "/connected"}
+                                    color={path === "/connected" ? blue : "black"}
                                     onClick={() => {
                                         history.push("/connected");
                                         window.scrollTo(0, 0);
@@ -125,6 +153,8 @@ export const Navbar = () => {
                                     Connected
                                 </NavbarLink>
                                 <NavbarLink
+                                    bold={path === "/abundant"}
+                                    color={path === "/abundant" ? green : "black"}
                                     onClick={() => {
                                         history.push("/abundant");
                                         window.scrollTo(0, 0);
@@ -133,6 +163,8 @@ export const Navbar = () => {
                                     Abundant
                                 </NavbarLink>
                                 <NavbarLink
+                                    bold={path === "/healthful"}
+                                    color={path === "/healthful" ? orange : "black"}
                                     onClick={() => {
                                         history.push("/healthful");
                                         window.scrollTo(0, 0);
@@ -141,6 +173,8 @@ export const Navbar = () => {
                                     Healthful
                                 </NavbarLink>
                                 <NavbarLink
+                                    bold={path === "/orchards"}
+                                    color={path === "/orchards" ? brown : "black"}
                                     onClick={() => {
                                         history.push("/orchards");
                                         window.scrollTo(0, 0);
@@ -149,6 +183,8 @@ export const Navbar = () => {
                                     Orchards
                                 </NavbarLink>
                                 <NavbarLink
+                                    bold={path === "/bungalow"}
+                                    color={path === "/bungalow" ? yellow : "black"}
                                     onClick={() => {
                                         history.push("/bungalow");
                                         window.scrollTo(0, 0);
@@ -283,11 +319,12 @@ const NavbarLinkContainer = styled.ul`
 `;
 
 const NavbarLink = styled.li`
-    color: black;
+    color: ${(props) => props.color};
     margin: 20px 0;
     text-transform: uppercase;
     font-size: 16px;
     cursor: pointer;
+    font-weight: ${(props) => (props.bold ? "bold" : "normal")};
 
     :hover {
         font-style: italic;

@@ -38,7 +38,7 @@ export const Home = () => {
             <HeroSection>
                 <HeroHeader>Welcome to Idylworld, </HeroHeader>
                 <HeroTextContainer>
-                    Pune's unique <Highlight background={brownTransparent}>hill orchards</Highlight>{" "}
+                    Pune's unique hill <Highlight background={brownTransparent}>orchards</Highlight>{" "}
                     <Highlight background={yellowTransparent}>community</Highlight> of{" "}
                     <Highlight background={blueTransparent}>connected</Highlight>,{" "}
                     <Highlight background={greenTransparent}>abundant</Highlight> and{" "}

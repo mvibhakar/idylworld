@@ -7,6 +7,7 @@ import {
     SectionSubHeader,
     ContentContainer,
     IconInfoItemContainer,
+    ContentImage,
 } from "../_shared";
 import { IconInfoItem } from "../_shared/IconInfoItem";
 import ScrollAnimation from "react-animate-on-scroll";
@@ -25,6 +26,14 @@ export const Orchards = () => {
                             to fulfill all their needs, grow many trees, build a house (or two), and still have enough
                             left over for private walking trails and nature nooks!
                         </SectionSubHeader>
+                        <ContentImage
+                            src="https://idylworld-static.sgp1.digitaloceanspaces.com/idylworld-orchards-2.jpeg"
+                            alt="pune orchards 1"
+                        />
+                        <ContentImage
+                            src="https://idylworld-static.sgp1.digitaloceanspaces.com/idylworld-orchards-1.jpeg"
+                            alt="pune orchards 2"
+                        />
                     </ScrollAnimation>
                 </ContentContainer>
             </VariableHeightSection>

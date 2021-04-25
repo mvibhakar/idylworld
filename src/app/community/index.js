@@ -1,6 +1,14 @@
 import React from "react";
 import { green, yellow } from "../../utils";
-import { Main, VariableHeightSection, SectionHeader, ContentContainer, FullscreenSection, Text } from "../_shared";
+import {
+    Main,
+    VariableHeightSection,
+    SectionHeader,
+    ContentContainer,
+    FullscreenSection,
+    Text,
+    ContentImage,
+} from "../_shared";
 import ScrollAnimation from "react-animate-on-scroll";
 import "video-react/dist/video-react.css";
 
@@ -8,6 +16,18 @@ export const Community = () => {
     return (
         <Main>
             <VariableHeightSection first={true}>
+                <ContentContainer>
+                    <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
+                        <SectionHeader color={yellow}>Idylworld Believes in Community</SectionHeader>
+                        <ContentImage
+                            src="https://idylworld-static.sgp1.digitaloceanspaces.com/master%20plan%20satellite.png"
+                            alt="idylworld community"
+                            style={{ marginTop: "0px" }}
+                        />
+                    </ScrollAnimation>
+                </ContentContainer>
+            </VariableHeightSection>
+            <VariableHeightSection>
                 <ContentContainer>
                     <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                         <SectionHeader color={yellow}>

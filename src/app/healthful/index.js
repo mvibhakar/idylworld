@@ -8,6 +8,7 @@ import {
     SectionSubHeader,
     ContentContainer,
     IconInfoItemContainer,
+    ContentImage,
 } from "../_shared";
 import { IconInfoItem } from "../_shared/IconInfoItem";
 import ScrollAnimation from "react-animate-on-scroll";
@@ -19,11 +20,11 @@ export const Healthful = () => {
                 <ContentContainer>
                     <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                         <SectionHeader color={orange}>Idylworld is Healthful</SectionHeader>
-                        <SectionSubHeader>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat.
-                        </SectionSubHeader>
+                        <ContentImage
+                            src="https://idylworld-static.sgp1.digitaloceanspaces.com/idylworld-healthful.jpg"
+                            alt="idylworld healthful"
+                            style={{ marginTop: "0px" }}
+                        />
                     </ScrollAnimation>
                 </ContentContainer>
             </VariableHeightSection>
