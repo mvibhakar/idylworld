@@ -38,13 +38,13 @@ export const Home = () => {
             <HeroSection>
                 <HeroHeader>Welcome to Idylworld, </HeroHeader>
                 <HeroTextContainer>
-                    Pune's unique hill <Highlight background={brownTransparent}>orchards</Highlight>{" "}
-                    <Highlight background={yellowTransparent}>community</Highlight> of{" "}
+                    Pune's unique hill orchards <Highlight background={yellowTransparent}>community</Highlight> of{" "}
                     <Highlight background={blueTransparent}>connected</Highlight>,{" "}
                     <Highlight background={greenTransparent}>abundant</Highlight> and{" "}
                     <Highlight background={orangeTransparent}>healthful</Highlight>
-                    orchards with <Highlight background={yellowTransparent}>bungalows</Highlight> for the successful,{" "}
-                    <br /> yet down-to-earth, global Indian.
+                    <Highlight background={brownTransparent}>orchards</Highlight> with{" "}
+                    <Highlight background={yellowTransparent}>bungalows</Highlight> for the successful, <br /> yet
+                    down-to-earth, global Indian.
                 </HeroTextContainer>
                 <ScrollButton src={ScrollImage} alt="scroll" />
             </HeroSection>
