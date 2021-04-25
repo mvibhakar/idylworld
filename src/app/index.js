@@ -9,7 +9,8 @@ import { Abundant } from "./abundant";
 import { Healthful } from "./healthful";
 import { Navbar } from "./_shared/Navbar";
 import { Footer } from "./_shared/Footer";
-// import Community from "./community";
+import { Bungalow } from "./bungalow";
+import { Community } from "./community";
 
 function App() {
     return (
@@ -61,7 +62,7 @@ function App() {
                             </ViewWrapper>
                         )}
                     />
-                    {/* <Route
+                    <Route
                         path="/community"
                         exact
                         component={() => (
@@ -69,7 +70,16 @@ function App() {
                                 <Community />
                             </ViewWrapper>
                         )}
-                    /> */}
+                    />
+                    <Route
+                        path="/bungalow"
+                        exact
+                        component={() => (
+                            <ViewWrapper>
+                                <Bungalow />
+                            </ViewWrapper>
+                        )}
+                    />
                 </Switch>
             </div>
         </Router>

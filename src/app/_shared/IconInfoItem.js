@@ -1,4 +1,5 @@
 import React from "react";
+import { useHistory } from "react-router-dom";
 import styled from "styled-components";
 import { Text } from "../_shared";
 import {
@@ -17,11 +18,19 @@ import {
     S3Key,
 } from "../../utils";
 
-export const IconInfoItem = ({ color, title, width, children }) => {
+export const IconInfoItem = ({ color, title, width, children, type }) => {
+    const history = useHistory();
     const blank = width && !title ? true : false;
 
     return (
-        <IconInfoConatiner width={width} blank={blank}>
+        <IconInfoConatiner
+            width={width}
+            blank={blank}
+            onClick={() => {
+                history.push(type);
+                window.scrollTo(0, 0);
+            }}
+        >
             <ColorContainer color={color} width={width}>
                 {title && <Pictogram src={S3Key + title + ".png"} alt={title} />}
             </ColorContainer>
@@ -36,6 +45,7 @@ const IconInfoConatiner = styled.div`
     min-height: 300px;
     margin: 20px;
     display: ${(props) => (props.blank ? "none" : "block")};
+    cursor: pointer;
 
     @media (min-width: ${breakpoint}) {
         display: block;

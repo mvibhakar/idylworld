@@ -52,6 +52,14 @@ export const Navbar = () => {
                         <NavbarLinkContainer>
                             <NavbarLink
                                 onClick={() => {
+                                    history.push("/community");
+                                    window.scrollTo(0, 0);
+                                }}
+                            >
+                                Community
+                            </NavbarLink>
+                            <NavbarLink
+                                onClick={() => {
                                     history.push("/connected");
                                     window.scrollTo(0, 0);
                                 }}
@@ -82,6 +90,14 @@ export const Navbar = () => {
                             >
                                 Orchards
                             </NavbarLink>
+                            <NavbarLink
+                                onClick={() => {
+                                    history.push("/bungalow");
+                                    window.scrollTo(0, 0);
+                                }}
+                            >
+                                Bungalow
+                            </NavbarLink>
                         </NavbarLinkContainer>
                         <MenuButton src={MenuBlackIcon} alt="menu" onClick={openDrawer} />
                         <Drawer
@@ -92,6 +108,14 @@ export const Navbar = () => {
                             closeIcon={getCloseIcon()}
                         >
                             <ul>
+                                <NavbarLink
+                                    onClick={() => {
+                                        history.push("/community");
+                                        window.scrollTo(0, 0);
+                                    }}
+                                >
+                                    Community
+                                </NavbarLink>
                                 <NavbarLink
                                     onClick={() => {
                                         history.push("/connected");
@@ -123,6 +147,14 @@ export const Navbar = () => {
                                     }}
                                 >
                                     Orchards
+                                </NavbarLink>
+                                <NavbarLink
+                                    onClick={() => {
+                                        history.push("/bungalow");
+                                        window.scrollTo(0, 0);
+                                    }}
+                                >
+                                    Bungalow
                                 </NavbarLink>
                             </ul>
                             <div style={{ borderTop: "1px solid black" }}>

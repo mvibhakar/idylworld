@@ -135,3 +135,10 @@ export const Video = styled(Player)`
         outline: none !important;
     }
 `;
+
+export const Highlight = styled.span`
+    background: ${(props) => props.background};
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 4px;
+`;
