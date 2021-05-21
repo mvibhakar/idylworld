@@ -12,7 +12,7 @@ import {
     ContentImage,
     IconInfoItemContainer,
     LargeScreenOnly,
-    Video,
+    Video
 } from "../_shared";
 import styled from "styled-components";
 import { IconInfoItem } from "../_shared/IconInfoItem";
@@ -32,6 +32,24 @@ export const Abundant = () => {
                             alt="idylworld nature"
                             style={{ marginTop: "0px" }}
                         />
+                    </ScrollAnimation>
+                </ContentContainer>
+            </VariableHeightSection>
+            <VariableHeightSection>
+                <ContentContainer>
+                    <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
+                        <SectionHeader color={green}>Idylworld A to Z</SectionHeader>
+                        <IconInfoItemContainer>
+                            <IconInfoItem color="blue" title="invest" width="350px" type="/community">
+                                in landmark property and enjoy substantial growth personally and financially.
+                            </IconInfoItem>
+                            <IconInfoItem color="yellow" title="kindle" width="350px" type="/community">
+                                your curious mind & interest in the new activities & experiences, with the community or
+                                by yourself.
+                            </IconInfoItem>
+
+                            {/* do da thing here */}
+                        </IconInfoItemContainer>
                     </ScrollAnimation>
                 </ContentContainer>
             </VariableHeightSection>
@@ -64,6 +82,7 @@ export const Abundant = () => {
                                 Idylworld has animals like porcupine, pangolim, wild boar, hares, langurs, spotted dear
                                 and at least 80 to 90 different species of birds including peacocks year-round.
                             </IconInfoItem>
+                            {/* this is what empty icon info item looks like */}
                             <IconInfoItem width="350px" />
                         </IconInfoItemContainer>
                     </ScrollAnimation>

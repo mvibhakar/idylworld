@@ -46,6 +46,13 @@ export const Community = () => {
                                 in landmark property and enjoy substantial
                                 growth personally and financially.
                             </IconInfoItem>
+                            <IconInfoItem color="yellow" title="kindle" width="350px" type="/community">
+                                your curious mind & interest in the new activities & experiences, with the community or
+                                by yourself.
+                            </IconInfoItem>
+
+
+                        {/* do da thing here */}
                         </IconInfoItemContainer>
                     </ScrollAnimation>
                 </ContentContainer>
