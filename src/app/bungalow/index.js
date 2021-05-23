@@ -1,13 +1,50 @@
 import React from "react";
 import { green, yellow } from "../../utils";
-import { Main, VariableHeightSection, SectionHeader, ContentContainer, FullscreenSection, Text } from "../_shared";
+import {
+    Main,
+    VariableHeightSection,
+    SectionHeader,
+    ContentContainer,
+    FullscreenSection,
+    Text,
+    IconInfoItemContainer
+} from "../_shared";
 import ScrollAnimation from "react-animate-on-scroll";
 import "video-react/dist/video-react.css";
-
+import { IconInfoItem } from "../_shared/IconInfoItem";
 export const Bungalow = () => {
     return (
         <Main>
             <VariableHeightSection first={true}>
+                <ContentContainer>
+                    <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
+                        <SectionHeader color={yellow}>Live Large</SectionHeader>
+                        <IconInfoItemContainer>
+                            <IconInfoItem color="brown" title="transform" width="350px" type="/bungalow">
+                                Idylworld offers great opportunities to share your knowledge & learn/begin something new
+                                on menal, physical & spiritual level.
+                            </IconInfoItem>
+                            <IconInfoItem color="green" title="blend physical & digital" width="350px" type="/bungalow">
+                                At Idylworld, be physically in the serene natural setting yet have full, efficient
+                                access to your work/school digitally.
+                            </IconInfoItem>
+                            <IconInfoItem color="green" title="blend modern & traditional" width="350px" type="/bungalow">
+                                At Idylworld, you have an opportunity to merge new research & old traditional practices
+                                for protecting the environment & build your bungalow to touch the earth lightly.
+                            </IconInfoItem>
+                            <IconInfoItem color="green" title="recharged by sun, rain & wind" width="350px" type="/bungalow">
+                                At Idylworld, you have an opportunity to merge new research & old traditional practices
+                                for protecting the environment & build your bungalow to touch the earth lightly.
+                            </IconInfoItem>
+                            <IconInfoItem color="green" title="be serene" width="350px" type="/bungalow">
+                                At Idylworld bungalows, the indoor spaces are merged with outdoor spaces allowing you to sleep with fresh air circulating naturally. Sounds of nature lulling you into deep sleep.
+                            </IconInfoItem>
+                            <IconInfoItem width="350px" />
+                        </IconInfoItemContainer>
+                    </ScrollAnimation>
+                </ContentContainer>
+            </VariableHeightSection>
+            {/* <VariableHeightSection>
                 <ContentContainer>
                     <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                         <SectionHeader color={yellow}>
@@ -18,12 +55,6 @@ export const Bungalow = () => {
                             issue of climate change. Interestingly, Indian villages have always had tried and tested
                             practices which are eco friendly and should not be left behind or forgotten. At IW, we
                         </Text>
-                    </ScrollAnimation>
-                </ContentContainer>
-            </VariableHeightSection>
-            <VariableHeightSection>
-                <ContentContainer>
-                    <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                         <SectionHeader color={yellow}>
                             Blend Physical & Digital Lives with the Best of Both Worlds
                         </SectionHeader>
@@ -81,7 +112,7 @@ export const Bungalow = () => {
                         </Text>
                     </ScrollAnimation>
                 </ContentContainer>
-            </VariableHeightSection>
+            </VariableHeightSection> */}
         </Main>
     );
 };

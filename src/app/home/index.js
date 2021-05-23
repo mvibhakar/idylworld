@@ -11,7 +11,7 @@ import {
     LargeScreenOnly,
     IconInfoItemContainer,
     Video,
-    Highlight,
+    Highlight
 } from "../_shared";
 import { IconInfoItem } from "../_shared/IconInfoItem";
 import {
@@ -22,7 +22,7 @@ import {
     brownTransparent,
     blueTransparent,
     greenTransparent,
-    orangeTransparent,
+    orangeTransparent
 } from "../../utils";
 import styled from "styled-components";
 import { ControlBar } from "video-react";
@@ -88,7 +88,7 @@ export const Home = () => {
                             <IconInfoItem color="yellow" title="access" width="350px" type="/connected">
                                 Idylworld easily from Mumbai & Pune.
                             </IconInfoItem>
-                            <IconInfoItem color="green" title="blend" width="350px" type="/bungalow">
+                            <IconInfoItem color="green" tnitle="blend" width="350px" type="/bungalow">
                                 modern techniques of sustainable living with traditional practices of sustainability.
                             </IconInfoItem>
                             <IconInfoItem color="orange" title="connect" width="350px" type="/connected">
