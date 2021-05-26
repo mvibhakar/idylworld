@@ -194,27 +194,29 @@ export const Home = () => {
                 <ContentContainer>
                     <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                         <SectionHeader color={yellow}>Our Inspiration</SectionHeader>
-                        <ul>
-                            <li>
-                                While planning the Idylworld community we realized that the success of a community can
-                                only be measured by the happiness of its residents.{" "}
-                            </li>
-                            <li>
-                                The UN Happiness Index Research implies that health and access to growth contribute the
-                                most towards happiness of residents of the community.{" "}
-                            </li>
-                            <li>
-                                Access to growth (vibrancy) can be best achieved through providing community features to
-                                engage all 9 human intelligences of Multiple Intelligences.
-                            </li>
-                            <li>
-                                We believe the most livable year round weather condition in India is on the north face
-                                of a hill 1000 feet above the deccan plateau with an open west side and to the western
-                                outskirts of a city. Idylworld is this rare pune west location in India.
-                            </li>
-                            <li>Times of India report of no/minimum impact of COVID at high altitude.</li>
-                            <li>Low human density = auto social distancing.</li>
-                        </ul>
+                        <SectionSubHeader>
+                            <ul>
+                                <li>
+                                    While planning the Idylworld community we realized that the success of a community
+                                    can only be measured by the happiness of its residents.{" "}
+                                </li>
+                                <li>
+                                    The UN Happiness Index Research implies that health and access to growth contribute
+                                    the most towards happiness of residents of the community.{" "}
+                                </li>
+                                <li>
+                                    Access to growth (vibrancy) can be best achieved through providing community
+                                    features to engage all 9 human intelligences of Multiple Intelligences.
+                                </li>
+                                <li>
+                                    We believe the most livable year round weather condition in India is on the north
+                                    face of a hill 1000 feet above the deccan plateau with an open west side and to the
+                                    western outskirts of a city. Idylworld is this rare pune west location in India.
+                                </li>
+                                <li>Times of India report of no/minimum impact of COVID at high altitude.</li>
+                                <li>Low human density = auto social distancing.</li>
+                            </ul>
+                        </SectionSubHeader>
                     </ScrollAnimation>
                 </ContentContainer>
             </VariableHeightSection>
