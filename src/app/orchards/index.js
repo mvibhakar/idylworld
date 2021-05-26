@@ -18,7 +18,7 @@ export const Orchards = () => {
             <VariableHeightSection first={true}>
                 <ContentContainer>
                     <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
-                        <SectionHeader color={brown}>Live Sustainably at Idylworld</SectionHeader>
+                        <SectionHeader color={brown}>Nurture Yourself</SectionHeader>
                         <SectionSubHeader>
                             One acre at Idylworld would allow any resident to be exceptionally self-sufficient.
                             Residents can grow the family’s worth of fruits & veggies, house a large solar array and
@@ -51,7 +51,7 @@ export const Orchards = () => {
                                 Being at a higher elevation allows panoramic views of the natural environment. Having an
                                 amazing view from the comfort of your home can give you a daily dose of bliss.
                             </IconInfoItem>
-                            <IconInfoItem color="blue" title="enhanced natural ventilation" width="350px">
+                            <IconInfoItem color="blue" title="reduced energy bills" width="350px">
                                 This natural ventilation, while a source of fresh air, also aids in decreasing the
                                 energy bills of your home by becoming less reliant on artificial cooling.
                             </IconInfoItem>
@@ -65,7 +65,7 @@ export const Orchards = () => {
                                 light in, transforming the residence into a bright, beautiful and energy-efficient
                                 space.
                             </IconInfoItem>
-                            <IconInfoItem color="green" title="landscaping & gardening" width="350px">
+                            <IconInfoItem color="green" title="composting, landscaping & gardening" width="350px">
                                 With Idylworld Orchards, the homeowner has the option of doing away with manicured lawns
                                 and simply leaving the natural surrounding as it is, or going all out with landscaping
                                 and gardening.
@@ -105,6 +105,6 @@ export const Orchards = () => {
                     </ScrollAnimation>
                 </ContentContainer>
             </VariableHeightSection>
-        </Main>
+        </Main >
     );
 };

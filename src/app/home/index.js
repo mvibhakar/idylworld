@@ -11,7 +11,7 @@ import {
     LargeScreenOnly,
     IconInfoItemContainer,
     Video,
-    Highlight,
+    Highlight
 } from "../_shared";
 import { IconInfoItem } from "../_shared/IconInfoItem";
 import {
@@ -22,7 +22,7 @@ import {
     brownTransparent,
     blueTransparent,
     greenTransparent,
-    orangeTransparent,
+    orangeTransparent
 } from "../../utils";
 import styled from "styled-components";
 import { ControlBar } from "video-react";
@@ -51,26 +51,23 @@ export const Home = () => {
             <VariableHeightSection>
                 <ContentContainer>
                     <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
-                        <SectionHeader color={yellow}>Idylworld Strives To Be</SectionHeader>
+                        <SectionHeader color={yellow}>Idylworld Strives To Deliver</SectionHeader>
                         <IconInfoItemContainer>
                             <IconInfoItem color="yellow" title="community" width="200px">
-                                High growth of investment & Community of like minded naturalists, environmentalists,
-                                active, youthfu, conscencious citizens.
+                                Strong community of like minded nature loving citizens, active and youthful, conscientious & ethical nature nurturers.
                             </IconInfoItem>
                             <IconInfoItem color="blue" title="connected" width="200px">
-                                Stay connected to yourself, your family, your digital world & your physical world,
-                                including schools, colleges, work, and hospitals.
+                                Stay connected to your inner self, your family, your digital world & your physical world, including schools, colleges, work & hospitals.
                             </IconInfoItem>
                             <IconInfoItem color="green" title="abundant" width="200px">
-                                Sunlight & solar energy, wind, rainwater harvesting, rich soil producing lots of
-                                nutritious fresh produce, large spaces to play & perform, high return on investment.
+                                Sunlight & solar energy, wind, rainwater harvesting, rich soil producing lots of nutritious fresh produce. Large spaces to play & perform. High return on Investment.
                             </IconInfoItem>
                             <IconInfoItem color="orange" title="healthful" width="200px">
                                 Positive thoughts, active body, equanimous mind, sharing & caring, health enriching
                                 food. Strong community & minimal impact on the environment.
                             </IconInfoItem>
                             <IconInfoItem color="brown" title="orchards" width="200px">
-                                Lorem ipsum
+                                A sound ethical, hi growth investment. One time investment in IW leads to a self-sustaining orchard, where propagation of fruit trees is organic and easy due to high quality of fruits, soil & environment.
                             </IconInfoItem>
                             <IconInfoItem color="yellow" title="bungalow" width="200px">
                                 Modern, spacious, luxurious farm house, with ample natural light and air, built in cave
@@ -190,38 +187,45 @@ export const Home = () => {
             </LargeScreenOnly>
             <VariableHeightSection>
                 <ContentContainer>
+                    <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
+                        <SectionHeader color={yellow}>Our Inspiration</SectionHeader>
+                        <ul>
+                            <li>While planning the Idylworld community we realized that the success of a community can only be measured by the happiness of its residents. </li>
+                            <li>The UN Happiness Index Research implies that health and access to growth contribute the most towards happiness of residents of the community. </li>
+                            <li>Access to growth (vibrancy) can be best achieved through providing community features to engage all 9 human intelligences of Multiple Intelligences.</li>
+                            <li>We believe the most livable year round weather condition in India is on the north face of a hill 1000 feet above the deccan plateau with an open west side and to the western outskirts of a city. Idylworld is this rare pune west location in India.</li>
+                            <li>Times of India report of no/minimum impact of COVID at high altitude.</li>
+                            <li>Low human density = auto social distancing.</li>
+                        </ul>
+                    </ScrollAnimation>
+                </ContentContainer>
+            </VariableHeightSection>
+            <VariableHeightSection>
+                <ContentContainer>
                     <ScrollAnimation animateIn="fadeIn" animateOnce={true} duration={2}>
                         <SectionHeader color={yellow}>About Our Team</SectionHeader>
                         <SectionSubHeader>Ashish Vibhakar</SectionSubHeader>
                         <Text>
-                            Mr. Vibhakar is an entrepreneur since 1989, having built multiple companies in the USA and
-                            India. Prior to 1989, Ashish was a software research scientist at Xerox PARC, Silicon
-                            Valley, USA. Ashish’s interests include music especially Indian Classical, hiking/trekking &
-                            outdoors, travel, people, cooking, reading, dreams of making India and this world a better
-                            place.
+                            Ashish has been an entrepreneur since 1989, having built multiple companies in the USA & India. Prior to 1989, Ashish was a software research scientist at Xerox PARC, Silicon Valley, USA. Ashish’s interests include music especially Indian Classical, hiking/trekking & outdoors, travel, people, cooking, reading, dreams of making India and this world a better place.
                         </Text>
                         <SectionSubHeader>Jayant Kaneria</SectionSubHeader>
-                        <Text>Managing Director of Mont Vert Homes. At Idylworld, he is a mentor and advisor.</Text>
+                        <Text>Jayantbhai is the Managing Director of Mont Vert Homes. At Idylworld, he plays the role of a mentor and an advisor.</Text>
                         <SectionSubHeader>Narendra Jain</SectionSubHeader>
                         <Text>
-                            Managing director of Arham Corporation specializing in real estate and development for more
-                            than 15 years. At Idylworld he looks after Sales, Legal and Liasioning.
+                            Narendra is the Managing Director of Arham Corporation specialising in real estate and development for more than 15 years. At Idylworld he is responsible for sales, legal and liaisoning.
                         </Text>
                         <SectionSubHeader>Ravi Kapadia</SectionSubHeader>
-                        <Text>Medical Research Scientist specializing in sustainable communities.</Text>
+                        <Text>Ravi is a medical research scientist specialising in sustainable communities.</Text>
                         <SectionSubHeader>Parul Vibhakar</SectionSubHeader>
                         <Text>
-                            Mrs. Vibhakar has been a Corporate Law Attorney in India and USA for over 25 years. She has
-                            been instrumental in multiple successful startups and her interests include education,
-                            travelling, reading, painting, music and Indian classical dance.
+                            Parul has been a corporate lawyer in India & USA for over 34 years. She has been instrumental in multiple successful startups. Her interests include education, environment, gardening, travelling, fitness, reading, painting, music and Indian classical dance.
                         </Text>
                         <SectionSubHeader>Ajay Parekh</SectionSubHeader>
                         <Text>
-                            Mr. Parekh has been involved in Indian Real Estate for over 20 years. Apart from that, his
-                            interests include travel, cricket, and raising his two daughters.
+                            Ajay has been dealing in real estate for over 20 years. Ajay’s interests include travel, cricket & other outdoor activities.
                         </Text>
                         <SectionSubHeader>Indrajeet Singh</SectionSubHeader>
-                        <Text>Sales experience over 5 years.</Text>
+                        <Text>Indrajit has been involved in sales for over 5 years</Text>
                     </ScrollAnimation>
                 </ContentContainer>
             </VariableHeightSection>
