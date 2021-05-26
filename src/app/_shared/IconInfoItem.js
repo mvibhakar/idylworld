@@ -17,10 +17,12 @@ import {
     brownGradientBottom,
     S3Key,
 } from "../../utils";
+import { operationReducer } from "video-react/lib/reducers";
 
-export const IconInfoItem = ({ color, title, width, children, type }) => {
+export const IconInfoItem = ({ color, title, width, children, type, imageName }) => {
     const history = useHistory();
     const blank = width && !title ? true : false;
+    const imageNameForServer = imageName ?? title;
 
     return (
         <IconInfoConatiner
@@ -32,7 +34,7 @@ export const IconInfoItem = ({ color, title, width, children, type }) => {
             }}
         >
             <ColorContainer color={color} width={width}>
-                {title && <Pictogram src={S3Key + title + ".png"} alt={title} />}
+                {imageNameForServer && <Pictogram src={S3Key + imageNameForServer + ".png"} alt={imageNameForServer} />}
             </ColorContainer>
             <H3>{title}</H3>
             <Text>{children}</Text>
