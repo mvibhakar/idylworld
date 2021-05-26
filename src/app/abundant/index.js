@@ -38,13 +38,13 @@ export const Abundant = () => {
             <VariableHeightSection>
                 <ContentContainer>
                     <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
-                        <SectionHeader color={green}>Abundant Features</SectionHeader>
+                        {/* <SectionHeader color={green}>Enjoy Abundance</SectionHeader> */}
                         <IconInfoItemContainer>
                             <IconInfoItem color="yellow" title="sunlight" width="350px" type="/community">
                                 Idylworld has abundant sunlight to power your home & grow your food. Since it is located on the north-face, you are better protected from the effects of solar radiation.
                             </IconInfoItem>
                             <IconInfoItem color="blue" title="water" width="350px" type="/community">
-                                Idylworld gets moderate rainfall, higher than Pune flat land and less than Lonavla and Mahabaleshwar allowing growing dry zone crops like Bajra & Jowar and high rainfall crops like Nachni.
+                                Idylworld gets moderate rainfall, higher than Pune flat land and less than Lonavla and Mahabaleshwar allowing growing "dry zone" crops like Bajra & Jowar and "high rainfall" crops like Nachni.
                             </IconInfoItem>
                             <IconInfoItem color="green" title="air" width="350px" type="/community">
                                 Idylworld air is fresh & clean, since there is no metro/city between Idyworld & the ocean on the west.

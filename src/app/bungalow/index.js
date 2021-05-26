@@ -22,7 +22,7 @@ export const Bungalow = () => {
                         <IconInfoItemContainer>
                             <IconInfoItem color="brown" title="transform" width="350px" type="/bungalow">
                                 Idylworld offers great opportunities to share your knowledge & learn/begin something new
-                                on menal, physical & spiritual level.
+                                on mental, physical & spiritual level.
                             </IconInfoItem>
                             <IconInfoItem color="green" title="blend physical & digital" width="350px" type="/bungalow">
                                 At Idylworld, be physically in the serene natural setting yet have full, efficient
@@ -33,8 +33,7 @@ export const Bungalow = () => {
                                 for protecting the environment & build your bungalow to touch the earth lightly.
                             </IconInfoItem>
                             <IconInfoItem color="green" title="recharged by sun, rain & wind" width="350px" type="/bungalow">
-                                At Idylworld, you have an opportunity to merge new research & old traditional practices
-                                for protecting the environment & build your bungalow to touch the earth lightly.
+                                Use the nature to recharge your life - home, car, orchard.
                             </IconInfoItem>
                             <IconInfoItem color="green" title="be serene" width="350px" type="/bungalow">
                                 At Idylworld bungalows, the indoor spaces are merged with outdoor spaces allowing you to sleep with fresh air circulating naturally. Sounds of nature lulling you into deep sleep.

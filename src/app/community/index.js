@@ -19,7 +19,7 @@ export const Community = () => {
             <VariableHeightSection first={true}>
                 <ContentContainer>
                     <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
-                        <SectionHeader color={yellow}>Idylworld Believes in Community</SectionHeader>
+                        <SectionHeader color={yellow}>Belong to a Hill Community</SectionHeader>
                         <ContentImage
                             src="https://idylworld-static.sgp1.digitaloceanspaces.com/master%20plan%20satellite.png"
                             alt="idylworld community"
@@ -31,7 +31,7 @@ export const Community = () => {
             <VariableHeightSection>
                 <ContentContainer>
                     <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
-                        <SectionHeader color={yellow}>Belong To A Hill Community</SectionHeader>
+                        {/* <SectionHeader color={yellow}>Belong To A Hill Community</SectionHeader> */}
                         <IconInfoItemContainer>
                             <IconInfoItem color="blue" title="invest wisely" width="350px" type="/community">
                                 You invest intelligently, you benefit personally, but when you invest wisely & ethically the whole world benefits. Investment in a genuinely eco friendly, ethical & socially conscious community like Idylworld will help the community and additionally help change the narrative and trend towards taking care of the environment, which is needed most urgently.
