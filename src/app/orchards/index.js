@@ -42,7 +42,7 @@ export const Orchards = () => {
                     <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                         <SectionHeader color={brown}>Advantages of an Idylworld Home</SectionHeader>
                         <IconInfoItemContainer>
-                            <IconInfoItem color="green" title="privacy" width="350px">
+                            <IconInfoItem color="green" title="privacy" width="350px" >
                                 Mountain plots afford maximum privacy, away from the hustle and bustle. Especially at
                                 Idylworld, which is setback 1.5km from and 100 metres above the State Highway. In your
                                 secluded property, you can have all the peace and quiet that your heart desires.
@@ -51,7 +51,7 @@ export const Orchards = () => {
                                 Being at a higher elevation allows panoramic views of the natural environment. Having an
                                 amazing view from the comfort of your home can give you a daily dose of bliss.
                             </IconInfoItem>
-                            <IconInfoItem color="blue" title="reduced energy bills" width="350px">
+                            <IconInfoItem color="blue" title="reduced energy bills" width="350px" imageName="transform">
                                 This natural ventilation, while a source of fresh air, also aids in decreasing the
                                 energy bills of your home by becoming less reliant on artificial cooling.
                             </IconInfoItem>
@@ -65,7 +65,7 @@ export const Orchards = () => {
                                 light in, transforming the residence into a bright, beautiful and energy-efficient
                                 space.
                             </IconInfoItem>
-                            <IconInfoItem color="green" title="composting, landscaping & gardening" width="350px">
+                            <IconInfoItem color="green" title="composting, landscaping & gardening" width="350px" imageName="compost">
                                 With Idylworld Orchards, the homeowner has the option of doing away with manicured lawns
                                 and simply leaving the natural surrounding as it is, or going all out with landscaping
                                 and gardening.
