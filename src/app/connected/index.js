@@ -77,7 +77,7 @@ export const Connected = () => {
                                 color="yellow"
                                 title="easy access to booming economy"
                                 width="350px"
-                                imageName="invest"
+                                imageName="easy-access-to-booming-economy"
                             >
                                 Pune is ranked #1 amongst Indian metros in Mercer’s 2019 Quality of Living Index. Pune
                                 has consistently recorded a positive growth in business turnover, second only to
@@ -87,6 +87,7 @@ export const Connected = () => {
                                 color="yellow"
                                 title="easy access to malls and movie theaters"
                                 width="350px"
+                                imageName="easy-access-to-malls-and-movie-theaters"
                             >
                                 Idylworld is ___ kms from movie theatres and mall in name the places.
                             </IconInfoItem>

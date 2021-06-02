@@ -44,7 +44,7 @@ export const Community = () => {
                                 the narrative and trend towards taking care of the environment, which is needed most
                                 urgently.
                             </IconInfoItem>
-                            <IconInfoItem color="yellow" title="become an influencer" width="350px">
+                            <IconInfoItem color="yellow" title="become an influencer" width="350px" imageName="become-an-influencer">
                                 Be COOL, be a part of Idylworld. Reduce waste, Re-use what you can & Recycle. Host
                                 outdoor events, Celebrate festivals.
                             </IconInfoItem>
@@ -84,7 +84,7 @@ export const Community = () => {
                                 hike/trek/run/jog possibilities. Idylworld has perfect spots for group meditation
                                 sessions.
                             </IconInfoItem>
-                            <IconInfoItem color="green" title="perform arts" width="350px">
+                            <IconInfoItem color="green" title="perform arts" width="350px" imageName="perform-art">
                                 Idylworld Arts Village will provide the platform to the enthusiasts interested in
                                 exploring arts to have fun & experience therapeutic benefits of different modes of
                                 expression.
@@ -97,6 +97,7 @@ export const Community = () => {
                                 color="green"
                                 title="pray at community temple"
                                 width="350px"
+                                imageName="pray-at-community-temple"
                             >
                                 Masoba Temple at Idylworld is a ___ years old temple attracting hundreds of devotees
                                 year around. A communal place for satsang on festivals and special occasions.

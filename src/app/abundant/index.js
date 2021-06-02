@@ -52,7 +52,7 @@ export const Abundant = () => {
                             <IconInfoItem color="brown" title="flora" width="350px" imageName="blend">
                                 Idylworld is home to over 180 different species of plants including many medicinal plants & herbs. This plant biodiversity supports many species of insects & fauna, making Idyworld’s ecosystem vibrant & healthy.
                             </IconInfoItem>
-                            <IconInfoItem color="orange" title="fauna" width="350px" imageName="">
+                            <IconInfoItem color="orange" title="fauna" width="350px" imageName="fauna">
                                 Idylworld has animals like porcupine, pangolin, wild boar, hares, langurs, spotted deer and atleast 80-90 species of birds including peacocks.
                             </IconInfoItem>
                             <IconInfoItem color="green" title="stars" width="350px" imageName="gaze">

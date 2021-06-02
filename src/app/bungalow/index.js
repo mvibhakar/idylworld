@@ -24,7 +24,7 @@ export const Bungalow = () => {
                                 Idylworld offers great opportunities to share your knowledge & learn/begin something new
                                 on mental, physical & spiritual level.
                             </IconInfoItem>
-                            <IconInfoItem color="green" title="blend physical & digital" width="350px" >
+                            <IconInfoItem color="green" title="blend physical & digital" width="350px" imageName="blend-physical-&-digital">
                                 At Idylworld, be physically in the serene natural setting yet have full, efficient
                                 access to your work/school digitally.
                             </IconInfoItem>

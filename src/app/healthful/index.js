@@ -29,6 +29,14 @@ export const Healthful = () => {
                     </ScrollAnimation>
                 </ContentContainer>
             </VariableHeightSection>
+            {/* <VariableHeightSection>
+                <ContentContainer>
+                    <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
+                        <SectionHeader color={orange}>Times Of India</SectionHeader>
+                        <Text>As per this <a href="https://epaper.timesgroup.com/olive/apa/timesofindia/SharedView.Article.aspx?href=TOIM%2F2020%2F06%2F04&id=Ar00614&sk=00852CF9&viewMode=image">Times of India article</a>, </Text>
+                    </ScrollAnimation>
+                </ContentContainer>
+            </VariableHeightSection> */}
             <VariableHeightSection>
                 <ContentContainer>
                     <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
@@ -59,6 +67,6 @@ export const Healthful = () => {
                     </ScrollAnimation>
                 </ContentContainer>
             </VariableHeightSection>
-        </Main>
+        </Main >
     );
 };
