@@ -9,6 +9,7 @@ import {
     ContentContainer,
     IconInfoItemContainer,
     ContentImage,
+    H3
 } from "../_shared";
 import { IconInfoItem } from "../_shared/IconInfoItem";
 import ScrollAnimation from "react-animate-on-scroll";
@@ -29,14 +30,17 @@ export const Healthful = () => {
                     </ScrollAnimation>
                 </ContentContainer>
             </VariableHeightSection>
-            {/* <VariableHeightSection>
+            <VariableHeightSection>
                 <ContentContainer>
                     <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
-                        <SectionHeader color={orange}>Times Of India</SectionHeader>
-                        <Text>As per this <a href="https://epaper.timesgroup.com/olive/apa/timesofindia/SharedView.Article.aspx?href=TOIM%2F2020%2F06%2F04&id=Ar00614&sk=00852CF9&viewMode=image">Times of India article</a>, </Text>
+                        <SectionHeader color={orange}>Our Fight Against Covid-19</SectionHeader>
+                        <h3>Here at Idylworld, one of our number one priorities, as of January 2020, has been the fight
+                            against the Covid-19 virus. As per this <a href="https://epaper.timesgroup.com/olive/apa/timesofindia/SharedView.Article.aspx?href=TOIM%2F2020%2F06%2F04&id=Ar00614&sk=00852CF9&viewMode=image" target="_blank">
+                                Times of India article</a>, studies have shown that people who live at higher altitudes have
+                                reported lower numbers of Covid cases. With an average altitude of over 3,000 feet, we are grateful to know that these studies apply to our project and the people who populate it. </h3>
                     </ScrollAnimation>
                 </ContentContainer>
-            </VariableHeightSection> */}
+            </VariableHeightSection>
             <VariableHeightSection>
                 <ContentContainer>
                     <ScrollAnimation animateIn="fadeIn" animateOnce={true}>

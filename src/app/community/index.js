@@ -84,7 +84,7 @@ export const Community = () => {
                                 hike/trek/run/jog possibilities. Idylworld has perfect spots for group meditation
                                 sessions.
                             </IconInfoItem>
-                            <IconInfoItem color="green" title="perform arts" width="350px" imageName="perform-art">
+                            <IconInfoItem color="green" title="perform arts" width="350px" imageName="discover">
                                 Idylworld Arts Village will provide the platform to the enthusiasts interested in
                                 exploring arts to have fun & experience therapeutic benefits of different modes of
                                 expression.
@@ -97,9 +97,9 @@ export const Community = () => {
                                 color="green"
                                 title="pray at community temple"
                                 width="350px"
-                                imageName="pray-at-community-temple"
+                                imageName="meditate"
                             >
-                                Masoba Temple at Idylworld is a ___ years old temple attracting hundreds of devotees
+                                Masoba Temple at Idylworld old temple that is an institution for the surrounding communities, attracting hundreds of devotees
                                 year around. A communal place for satsang on festivals and special occasions.
                             </IconInfoItem>
                             <IconInfoItem color="orange" title="pathways & trails" width="350px" imageName="hike">

@@ -61,6 +61,7 @@ export const Abundant = () => {
                             <IconInfoItem color="blue" title="horizon" width="350px" imageName="observe">
                                 At Idylworld observe the horizon, sunrise and sunset. Spectacular natural views.
                             </IconInfoItem>
+                            <IconInfoItem width="350px" />
                         </IconInfoItemContainer>
                     </ScrollAnimation>
                 </ContentContainer>

@@ -89,7 +89,7 @@ export const Connected = () => {
                                 width="350px"
                                 imageName="easy-access-to-malls-and-movie-theaters"
                             >
-                                Idylworld is ___ kms from movie theatres and mall in name the places.
+                                Idylworld is within 25 kms of movie theatres and malls such as Westend Mall and Pavilion Mall.
                             </IconInfoItem>
                         </IconInfoItemContainer>
                     </ScrollAnimation>
