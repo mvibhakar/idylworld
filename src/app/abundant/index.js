@@ -1,6 +1,5 @@
 import React from "react";
 import { green } from "../../utils";
-import { Carousel } from "antd";
 import {
     Main,
     VariableHeightSection,
@@ -14,6 +13,7 @@ import {
     LargeScreenOnly,
     Video
 } from "../_shared";
+import { Carousel } from 'antd';
 import styled from "styled-components";
 import { IconInfoItem } from "../_shared/IconInfoItem";
 import { ControlBar } from "video-react";
@@ -27,11 +27,11 @@ export const Abundant = () => {
                 <ContentContainer>
                     <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                         <SectionHeader color={green}>Enjoy Abundance</SectionHeader>
-                        <ContentImage
-                            src="https://idylworld-static.sgp1.digitaloceanspaces.com/abundance.png"
-                            alt="idylworld nature"
-                            style={{ marginTop: "0px" }}
-                        />
+                        <Carousel autoplay>
+                            <CarouselImage src="https://idylworld-static.sgp1.digitaloceanspaces.com/DSC_3325.jpg" width="400px"></CarouselImage>
+                            <CarouselImage src="https://idylworld-static.sgp1.digitaloceanspaces.com/IMG_3861.jpg" width="400px"></CarouselImage>
+                            <CarouselImage src="https://idylworld-static.sgp1.digitaloceanspaces.com/IMG_4028.jpg" width="400px"></CarouselImage>
+                        </Carousel>
                     </ScrollAnimation>
                 </ContentContainer>
             </VariableHeightSection>
@@ -55,7 +55,7 @@ export const Abundant = () => {
                             <IconInfoItem color="orange" title="fauna" width="350px" imageName="fauna">
                                 Idylworld has animals like porcupine, pangolin, wild boar, hares, langurs, spotted deer and atleast 80-90 species of birds including peacocks.
                             </IconInfoItem>
-                            <IconInfoItem color="green" title="stars" width="350px" imageName="gaze">
+                            <IconInfoItem color="yellow" title="stars" width="350px" imageName="gaze">
                                 Gaze at stars while sleeping in the open, listening to chirping birds.
                             </IconInfoItem>
                             <IconInfoItem color="blue" title="horizon" width="350px" imageName="observe">

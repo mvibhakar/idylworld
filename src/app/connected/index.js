@@ -9,7 +9,9 @@ import {
     ContentContainer,
     ContentImage,
     IconInfoItemContainer,
+    CarouselImage
 } from "../_shared";
+import { Carousel } from 'antd';
 import ScrollAnimation from "react-animate-on-scroll";
 import { IconInfoItem } from "../_shared/IconInfoItem";
 export const Connected = () => {
@@ -19,6 +21,10 @@ export const Connected = () => {
                 <ContentContainer>
                     <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                         <SectionHeader color={blue}>Stay Connected</SectionHeader>
+                        <Carousel autoplay>
+                            <CarouselImage src="https://idylworld-static.sgp1.digitaloceanspaces.com/DJI_0079%20(2).jpg" width="400px"></CarouselImage>
+                            <CarouselImage src="https://idylworld-static.sgp1.digitaloceanspaces.com/DJI_0041%20(2).jpg" width="400px"></CarouselImage>
+                        </Carousel>
                         <IconInfoItemContainer>
                             <IconInfoItem
                                 color="yellow"
@@ -31,14 +37,14 @@ export const Connected = () => {
                                 chaos and puts you back in touch with yourself.
                             </IconInfoItem>
                             <IconInfoItem
-                                color="yellow"
+                                color="green"
                                 title="easy access to Mumbai & Pune"
                                 width="350px"
                                 imageName="access"
                             >
                                 Idylworld (320 Acres) is located on the western side of Pune off the Pune-Lavasa Road in
-                                Botharwadi Village. Idylworld is accessible via 4 routes - Hinjewadi, Chandani Chowk,
-                                Khadakwasla & Mulshi.
+                                Botharwadi Village. Idylworld is accessible via 4 routes - Hinjewadi (_ km), Chandani Chowk (_ km),
+                                Khadakwasla (_ km) & Mulshi (_ km).
                             </IconInfoItem>
                             <IconInfoItem
                                 color="orange"
@@ -51,7 +57,7 @@ export const Connected = () => {
                                 colleges of Pune.
                             </IconInfoItem>
                             <IconInfoItem
-                                color="orange"
+                                color="blue"
                                 title="easy access to hospitals"
                                 width="350px"
                                 imageName="hospital"
@@ -59,7 +65,7 @@ export const Connected = () => {
                                 Recuperate at one of the good hospitals near Idylworld. Idylworld is conveniently
                                 situated close to multiple specialty hospitals of different price points.
                             </IconInfoItem>
-                            <IconInfoItem color="orange" title="easy access to work" width="350px" imageName="work">
+                            <IconInfoItem color="brown" title="easy access to work" width="350px" imageName="work">
                                 Work from home or anywhere in Pune west/ HInjewadi. Hi speed wi fi enables working
                                 efficiently from home. Thankfully, the business hubs of PUNE west/ HInjewadi are also
                                 easily accessible from Idylworld.
@@ -70,11 +76,11 @@ export const Connected = () => {
                                 width="350px"
                                 imageName="zoom"
                             >
-                                Zoom and continue your digital presence with speedy WiFi. Idylworld has already
-                                installed an outdoor mesh WiFi network.
+                                Zoom and continue your digital presence with speedy WiFi. Idylworld is in the process of
+                                installing an outdoor mesh WiFi network.
                             </IconInfoItem>
                             <IconInfoItem
-                                color="yellow"
+                                color="green"
                                 title="easy access to booming economy"
                                 width="350px"
                                 imageName="easy-access-to-booming-economy"
@@ -84,12 +90,13 @@ export const Connected = () => {
                                 Bengaluru. Pune features among India’s top 5 real estate destinations.
                             </IconInfoItem>
                             <IconInfoItem
-                                color="yellow"
+                                color="orange"
                                 title="easy access to malls and movie theaters"
                                 width="350px"
                                 imageName="easy-access-to-malls-and-movie-theaters"
                             >
-                                Idylworld is within 25 kms of movie theatres and malls such as Westend Mall and Pavilion Mall.
+                                Idylworld is within 25 kms of movie theatres and malls such as Westend Mall (Aundh),
+                                Pavilion Mall (Shivaji Nagar), Xion Mall (Hinjewadi) and Balewadi High Street (Baner).
                             </IconInfoItem>
                         </IconInfoItemContainer>
                     </ScrollAnimation>
@@ -100,10 +107,10 @@ export const Connected = () => {
 };
 
 // keep this here for the future
-{
-    /* <CarouselContainer autoplay>
-                        <CarouselImage src="https://idylworld-static.sgp1.digitaloceanspaces.com/puneisgoingwestlargeimage.png" />
-                        <CarouselImage src="https://idylworld-static.sgp1.digitaloceanspaces.com/puneisgoingwestlargeimage.png" />
-                        <CarouselImage src="https://idylworld-static.sgp1.digitaloceanspaces.com/puneisgoingwestlargeimage.png" />
-                    </CarouselContainer> */
-}
+// {
+//     <CarouselContainer autoplay>
+//         <CarouselImage src="https://idylworld-static.sgp1.digitaloceanspaces.com/puneisgoingwestlargeimage.png" />
+//         <CarouselImage src="https://idylworld-static.sgp1.digitaloceanspaces.com/puneisgoingwestlargeimage.png" />
+//         <CarouselImage src="https://idylworld-static.sgp1.digitaloceanspaces.com/puneisgoingwestlargeimage.png" />
+//     </CarouselContainer>
+// }
