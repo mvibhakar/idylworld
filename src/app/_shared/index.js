@@ -113,7 +113,7 @@ export const CarouselContainer = styled.div`
 `;
 
 export const CarouselImage = styled.img`
-    width: 100%;
+
 `;
 
 export const ContentImage = styled.img`
@@ -142,3 +142,4 @@ export const Highlight = styled.span`
     margin-right: 5px;
     border-radius: 4px;
 `;
+

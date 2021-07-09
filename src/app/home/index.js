@@ -76,7 +76,7 @@ export const Home = () => {
                             </IconInfoItem>
                             <IconInfoItem color="yellow" title="bungalow" width="200px">
                                 Modern, spacious, luxurious farm house, with ample natural light and air, built in cave
-                                of trees, using custom built pre-fab panels. A sound investment with high ROI.
+                                of trees. A sound investment with high ROI.
                             </IconInfoItem>
                         </IconInfoItemContainer>
                     </ScrollAnimation>
@@ -213,8 +213,6 @@ export const Home = () => {
                                     face of a hill 1000 feet above the deccan plateau with an open west side and to the
                                     western outskirts of a city. Idylworld is this rare pune west location in India.
                                 </li>
-                                <li>Times of India report of no/minimum impact of COVID at high altitude.</li>
-                                <li>Low human density = auto social distancing.</li>
                             </ul>
                         </SectionSubHeader>
                     </ScrollAnimation>

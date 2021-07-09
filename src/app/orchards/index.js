@@ -8,7 +8,9 @@ import {
     ContentContainer,
     IconInfoItemContainer,
     ContentImage,
+    CarouselImage
 } from "../_shared";
+import { Carousel } from 'antd';
 import { IconInfoItem } from "../_shared/IconInfoItem";
 import ScrollAnimation from "react-animate-on-scroll";
 
@@ -19,6 +21,10 @@ export const Orchards = () => {
                 <ContentContainer>
                     <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                         <SectionHeader color={brown}>Nurture Yourself</SectionHeader>
+                        <Carousel autoplay>
+                            <CarouselImage src="https://idylworld-static.sgp1.digitaloceanspaces.com/13.jpeg" width="400px"></CarouselImage>
+                            <CarouselImage src="https://idylworld-static.sgp1.digitaloceanspaces.com/abundance.png" width="400px"></CarouselImage>
+                        </Carousel>
                         <SectionSubHeader>
                             One acre at Idylworld would allow any resident to be exceptionally self-sufficient.
                             Residents can grow the family’s worth of fruits & veggies, house a large solar array and
