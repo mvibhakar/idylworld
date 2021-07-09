@@ -43,8 +43,8 @@ export const Connected = () => {
                                 imageName="access"
                             >
                                 Idylworld (320 Acres) is located on the western side of Pune off the Pune-Lavasa Road in
-                                Botharwadi Village. Idylworld is accessible via 4 routes - Hinjewadi (_ km), Chandani Chowk (_ km),
-                                Khadakwasla (_ km) & Mulshi (_ km).
+                                Botharwadi Village. Idylworld is accessible via 4 routes - National Highway (10 min), Pune
+                                Ring Road Metro (20 min),Hinjewadi (30 min), Chandani Chowk (30 min).
                             </IconInfoItem>
                             <IconInfoItem
                                 color="orange"
