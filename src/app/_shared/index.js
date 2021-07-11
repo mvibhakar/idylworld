@@ -113,7 +113,17 @@ export const CarouselContainer = styled.div`
 `;
 
 export const CarouselImage = styled.img`
-    width: 100%;
+    margin-top: 20px;
+    width: 800px;
+    object-fit: cover;
+    height: 530px;
+    border-radius: 8px;
+`;
+
+export const CarouselImageWithoutFit = styled.img`
+    margin-top: 20px;
+    width: 800px;
+    border-radius: 8px;
 `;
 
 export const ContentImage = styled.img`
@@ -142,3 +152,13 @@ export const Highlight = styled.span`
     margin-right: 5px;
     border-radius: 4px;
 `;
+
+export const Bubble = styled.div`
+    background: purple;
+    border-radius: 14px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+`;
+
+export const HeroContainer = styled.div``;

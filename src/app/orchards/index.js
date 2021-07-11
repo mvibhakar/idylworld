@@ -8,9 +8,11 @@ import {
     ContentContainer,
     IconInfoItemContainer,
     ContentImage,
+    CarouselImage,
 } from "../_shared";
 import { IconInfoItem } from "../_shared/IconInfoItem";
 import ScrollAnimation from "react-animate-on-scroll";
+import { Carousel } from "antd";
 
 export const Orchards = () => {
     return (
@@ -26,14 +28,28 @@ export const Orchards = () => {
                             to fulfill all their needs, grow many trees, build a house (or two), and still have enough
                             left over for private walking trails and nature nooks!
                         </SectionSubHeader>
-                        <ContentImage
-                            src="https://idylworld-static.sgp1.digitaloceanspaces.com/idylworld-orchards-2.jpeg"
-                            alt="pune orchards 1"
-                        />
-                        <ContentImage
-                            src="https://idylworld-static.sgp1.digitaloceanspaces.com/idylworld-orchards-1.jpeg"
-                            alt="pune orchards 2"
-                        />
+                        <Carousel autoplay>
+                            <CarouselImage
+                                src="https://idylworld-static.sgp1.digitaloceanspaces.com/DJI_0054%20%281%29.jpg"
+                                alt="pune orchards"
+                            />
+                            <CarouselImage
+                                src="https://idylworld-static.sgp1.digitaloceanspaces.com/DJI_0218.JPG"
+                                alt="pune orchards"
+                            />
+                            <CarouselImage
+                                src="https://idylworld-static.sgp1.digitaloceanspaces.com/farm%20house%20section%20pond.jpg"
+                                alt="pune orchards"
+                            />
+                            <CarouselImage
+                                src="https://idylworld-static.sgp1.digitaloceanspaces.com/DSC_3367%20%281%29.jpg"
+                                alt="pune orchards"
+                            />
+                            <CarouselImage
+                                src="https://idylworld-static.sgp1.digitaloceanspaces.com/orchird%203d%20view.jpg"
+                                alt="pune orchards"
+                            />
+                        </Carousel>
                     </ScrollAnimation>
                 </ContentContainer>
             </VariableHeightSection>
@@ -42,7 +58,7 @@ export const Orchards = () => {
                     <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                         <SectionHeader color={brown}>Advantages of an Idylworld Home</SectionHeader>
                         <IconInfoItemContainer>
-                            <IconInfoItem color="green" title="privacy" width="350px" >
+                            <IconInfoItem color="green" title="privacy" width="350px">
                                 Mountain plots afford maximum privacy, away from the hustle and bustle. Especially at
                                 Idylworld, which is setback 1.5km from and 100 metres above the State Highway. In your
                                 secluded property, you can have all the peace and quiet that your heart desires.
@@ -65,7 +81,12 @@ export const Orchards = () => {
                                 light in, transforming the residence into a bright, beautiful and energy-efficient
                                 space.
                             </IconInfoItem>
-                            <IconInfoItem color="green" title="composting, landscaping & gardening" width="350px" imageName="compost">
+                            <IconInfoItem
+                                color="green"
+                                title="composting, landscaping & gardening"
+                                width="350px"
+                                imageName="compost"
+                            >
                                 With Idylworld Orchards, the homeowner has the option of doing away with manicured lawns
                                 and simply leaving the natural surrounding as it is, or going all out with landscaping
                                 and gardening.
@@ -105,6 +126,6 @@ export const Orchards = () => {
                     </ScrollAnimation>
                 </ContentContainer>
             </VariableHeightSection>
-        </Main >
+        </Main>
     );
 };

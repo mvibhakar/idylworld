@@ -9,10 +9,12 @@ import {
     ContentContainer,
     IconInfoItemContainer,
     ContentImage,
-    H3
+    H3,
+    CarouselImage,
 } from "../_shared";
 import { IconInfoItem } from "../_shared/IconInfoItem";
 import ScrollAnimation from "react-animate-on-scroll";
+import { Carousel } from "antd";
 
 export const Healthful = () => {
     return (
@@ -21,12 +23,24 @@ export const Healthful = () => {
                 <ContentContainer>
                     <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                         <SectionHeader color={orange}>Be Healthy</SectionHeader>
-                        <ContentImage
-                            src="https://idylworld-static.sgp1.digitaloceanspaces.com/idylworld-healthful.jpg"
-                            alt="idylworld healthful"
-                            style={{ marginTop: "0px" }}
-                        />
-
+                        <Carousel autoplay>
+                            <CarouselImage
+                                src="https://idylworld-static.sgp1.digitaloceanspaces.com/IMG_0304.jpg"
+                                alt="healthful"
+                            />
+                            <CarouselImage
+                                src="https://idylworld-static.sgp1.digitaloceanspaces.com/IMG_0298.jpg"
+                                alt="healthful"
+                            />
+                            <CarouselImage
+                                src="https://idylworld-static.sgp1.digitaloceanspaces.com/DJI_0079%20%282%29.jpg"
+                                alt="healthful"
+                            />
+                            <CarouselImage
+                                src="https://idylworld-static.sgp1.digitaloceanspaces.com/GRU_6877.jpg"
+                                alt="healthful"
+                            />
+                        </Carousel>
                     </ScrollAnimation>
                 </ContentContainer>
             </VariableHeightSection>
@@ -34,10 +48,19 @@ export const Healthful = () => {
                 <ContentContainer>
                     <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                         <SectionHeader color={orange}>Our Fight Against Covid-19</SectionHeader>
-                        <h3>Here at Idylworld, one of our number one priorities, as of January 2020, has been the fight
-                            against the Covid-19 virus. As per this <a href="https://epaper.timesgroup.com/olive/apa/timesofindia/SharedView.Article.aspx?href=TOIM%2F2020%2F06%2F04&id=Ar00614&sk=00852CF9&viewMode=image" target="_blank">
-                                Times of India article</a>, studies have shown that people who live at higher altitudes have
-                                reported lower numbers of Covid cases. With an average altitude of over 3,000 feet, we are grateful to know that these studies apply to our project and the people who populate it. </h3>
+                        <h3>
+                            Here at Idylworld, one of our number one priorities, as of January 2020, has been the fight
+                            against the Covid-19 virus. As per this{" "}
+                            <a
+                                href="https://epaper.timesgroup.com/olive/apa/timesofindia/SharedView.Article.aspx?href=TOIM%2F2020%2F06%2F04&id=Ar00614&sk=00852CF9&viewMode=image"
+                                target="_blank"
+                            >
+                                Times of India article
+                            </a>
+                            , studies have shown that people who live at higher altitudes have reported lower numbers of
+                            Covid cases. With an average altitude of over 3,000 feet, we are grateful to know that these
+                            studies apply to our project and the people who populate it.{" "}
+                        </h3>
                     </ScrollAnimation>
                 </ContentContainer>
             </VariableHeightSection>
@@ -46,31 +69,42 @@ export const Healthful = () => {
                     <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                         <IconInfoItemContainer>
                             <IconInfoItem color="orange" title="fresh & pure air" width="350px" imageName="air">
-                                Since there is no major metro between Idylworld & the ocean, the wind mostly comes from the west, blowing across virgin forests, ensuring a pure & oxygenated breathing environment. Also, over 7000 acres of reserved afforestation zones around the Idylworld translate into a lower density of development & purer air.
+                                Since there is no major metro between Idylworld & the ocean, the wind mostly comes from
+                                the west, blowing across virgin forests, ensuring a pure & oxygenated breathing
+                                environment. Also, over 7000 acres of reserved afforestation zones around the Idylworld
+                                translate into a lower density of development & purer air.
                             </IconInfoItem>
                             <IconInfoItem color="brown" title="rich soil" width="350px" imageName="farm">
-                                Practically everything can grow here, since the soil is rich, unadulterated by chemicals and made richer by composting.
+                                Practically everything can grow here, since the soil is rich, unadulterated by chemicals
+                                and made richer by composting.
                             </IconInfoItem>
-                            <IconInfoItem color="orange" title="yoga & meditation" width="350px" imageName="unite">
-                                Idylworld is the perfect place to unite body, mind and spirit. Its quiet serenity is the ideal environment to nurture your yoga and meditation practices.
+                            <IconInfoItem color="blue" title="yoga & meditation" width="350px" imageName="unite">
+                                Idylworld is the perfect place to unite body, mind and spirit. Its quiet serenity is the
+                                ideal environment to nurture your yoga and meditation practices.
                             </IconInfoItem>
                             <IconInfoItem color="yellow" title="nature walks & hikes" width="350px" imageName="hike">
-                                Hike all day long at Idylworld with over 30 kms.of roads, trails & pathways. Jog at Idylworld Sports Village with breeze caressing your face & eyes feasting on beautiful views.
+                                Hike all day long at Idylworld with over 30 kms.of roads, trails & pathways. Jog at
+                                Idylworld Sports Village with breeze caressing your face & eyes feasting on beautiful
+                                views.
                             </IconInfoItem>
-                            <IconInfoItem color="yellow" title="fitness trail" width="350px" imageName="jog">
-                                Swiss style fitness trails (called Vitaparcours) are interspersed with exercise stations across Idylworld. The Vitaparcour circuits feature different strength, endurance & flexibility exercises.
+                            <IconInfoItem color="green" title="fitness trail" width="350px" imageName="jog">
+                                Swiss style fitness trails (called Vitaparcours) are interspersed with exercise stations
+                                across Idylworld. The Vitaparcour circuits feature different strength, endurance &
+                                flexibility exercises.
                             </IconInfoItem>
-                            <IconInfoItem color="yellow" title="play sport" width="350px" imageName="play">
-                                Playing a sport enhances all other positive aspects of your life. Any sport at any intensity level…. Just play!!!
+                            <IconInfoItem color="orange" title="play sport" width="350px" imageName="play">
+                                Playing a sport enhances all other positive aspects of your life. Any sport at any
+                                intensity level…. Just play!!!
                             </IconInfoItem>
-                            <IconInfoItem color="yellow" title="like minded community" width="350px" imageName="xchange">
-                                Idylworld values bringing together like-minded nature lovers who are passionate about sustainability, organic farming, the environment & physical health.
+                            <IconInfoItem color="brown" title="like minded community" width="350px" imageName="xchange">
+                                Idylworld values bringing together like-minded nature lovers who are passionate about
+                                sustainability, organic farming, the environment & physical health.
                             </IconInfoItem>
                             <IconInfoItem width="350px" />
                         </IconInfoItemContainer>
                     </ScrollAnimation>
                 </ContentContainer>
             </VariableHeightSection>
-        </Main >
+        </Main>
     );
 };
