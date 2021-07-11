@@ -11,6 +11,7 @@ import {
     CarouselImage,
     CarouselImageWithoutFit,
 } from "../_shared";
+import { Carousel } from 'antd';
 import ScrollAnimation from "react-animate-on-scroll";
 import "video-react/dist/video-react.css";
 import { IconInfoItem } from "../_shared/IconInfoItem";
@@ -59,49 +60,29 @@ export const Bungalow = () => {
                         </Carousel>
                     </ScrollAnimation>
                 </ContentContainer>
-            </VariableHeightSection>
-            <VariableHeightSection>
                 <ContentContainer>
-                    <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
-                        <IconInfoItemContainer>
-                            <IconInfoItem color="brown" title="transform" width="350px" imageName="share">
-                                Idylworld offers great opportunities to share your knowledge & learn/begin something new
-                                on mental, physical & spiritual level.
+                    <IconInfoItemContainer>
+                        <IconInfoItem color="yellow" title="transform" width="350px" imageName="share">
+                            Idylworld offers great opportunities to share your knowledge & learn/begin something new
+                            on mental, physical & spiritual level.
                             </IconInfoItem>
-                            <IconInfoItem
-                                color="green"
-                                title="blend physical & digital"
-                                width="350px"
-                                imageName="blend-physical-&-digital"
-                            >
-                                At Idylworld, be physically in the serene natural setting yet have full, efficient
-                                access to your work/school digitally.
+                        <IconInfoItem color="green" title="blend physical & digital" width="350px" imageName="blend-physical-&-digital">
+                            At Idylworld, be physically in the serene natural setting yet have full, efficient
+                            access to your work/school digitally.
                             </IconInfoItem>
-                            <IconInfoItem
-                                color="blue"
-                                title="blend modern & traditional"
-                                width="350px"
-                                imageName="connect"
-                            >
-                                At Idylworld, you have an opportunity to merge new research & old traditional practices
-                                for protecting the environment & build your bungalow to touch the earth lightly.
+                        <IconInfoItem color="orange" title="blend modern & traditional" width="350px" imageName="connect">
+                            At Idylworld, you have an opportunity to merge new research & old traditional practices
+                            for protecting the environment & build your bungalow to touch the earth lightly.
                             </IconInfoItem>
-                            <IconInfoItem
-                                color="orange"
-                                title="recharged by sun, rain & wind"
-                                width="350px"
-                                imageName="energize"
-                            >
-                                Use the nature to recharge your life - home, car, orchard.
+                        <IconInfoItem color="blue" title="recharged by sun, rain & wind" width="350px" imageName="energize">
+                            Use the nature to recharge your life - home, car, orchard.
                             </IconInfoItem>
-                            <IconInfoItem color="yellow" title="be serene" width="350px" imageName="meditate">
-                                At Idylworld bungalows, the indoor spaces are merged with outdoor spaces allowing you to
-                                sleep with fresh air circulating naturally. Sounds of nature lulling you into deep
-                                sleep.
+                        <IconInfoItem color="brown" title="be serene" width="350px" imageName="meditate">
+                            At Idylworld bungalows, the indoor spaces are merged with outdoor spaces allowing you to sleep with fresh air circulating naturally. Sounds of nature lulling you into deep sleep.
                             </IconInfoItem>
-                            <IconInfoItem width="350px" />
-                        </IconInfoItemContainer>
-                    </ScrollAnimation>
+                        <IconInfoItem width="350px" />
+                    </IconInfoItemContainer>
+
                 </ContentContainer>
             </VariableHeightSection>
         </Main>

@@ -11,6 +11,7 @@ import {
     IconInfoItemContainer,
     CarouselImage,
 } from "../_shared";
+import { Carousel } from 'antd';
 import ScrollAnimation from "react-animate-on-scroll";
 import "video-react/dist/video-react.css";
 import { IconInfoItem } from "../_shared/IconInfoItem";
@@ -79,14 +80,13 @@ export const Community = () => {
                                 & get inspired.
                             </IconInfoItem>
                             <IconInfoItem
-                                color="green"
+                                color="blue"
                                 title="drinking fountains around the community"
                                 width="350px"
                                 imageName="quench"
                             >
                                 To reduce single-use plastic bottles and provide clean water to residents, Idylworld has
-                                committed to make drinking water outlets a part of infrastructure plan, no matter what
-                                cost and effort are involved.
+                                committed to make drinking water outlets a part of infrastructure plan.
                             </IconInfoItem>
                             <IconInfoItem color="brown" title="night hike safely" width="350px" imageName="gaze">
                                 Idylworld has closely worked with botanists, outdoor explorers and locals to create a
@@ -108,14 +108,12 @@ export const Community = () => {
                                 grown fresh produce.
                             </IconInfoItem>
                             <IconInfoItem
-                                color="green"
+                                color="blue"
                                 title="pray at community temple"
                                 width="350px"
                                 imageName="meditate"
                             >
-                                Masoba Temple at Idylworld old temple that is an institution for the surrounding
-                                communities, attracting hundreds of devotees year around. A communal place for satsang
-                                on festivals and special occasions.
+                                Masoba Temple at Idylworld old temple that is an institution for the surrounding communities. A communal place for satsang on festivals and special occasions.
                             </IconInfoItem>
                             <IconInfoItem color="brown" title="pathways & trails" width="350px" imageName="hike">
                                 At Idylworld, we have planned and paved pathways to make zipping across the community

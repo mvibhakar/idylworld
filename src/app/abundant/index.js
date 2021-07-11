@@ -1,6 +1,5 @@
 import React from "react";
 import { green } from "../../utils";
-import { Carousel } from "antd";
 import {
     Main,
     VariableHeightSection,
@@ -14,6 +13,7 @@ import {
     LargeScreenOnly,
     Video,
 } from "../_shared";
+import { Carousel } from 'antd';
 import styled from "styled-components";
 import { IconInfoItem } from "../_shared/IconInfoItem";
 import { ControlBar } from "video-react";

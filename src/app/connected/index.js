@@ -11,6 +11,7 @@ import {
     IconInfoItemContainer,
     CarouselImage,
 } from "../_shared";
+import { Carousel } from 'antd';
 import ScrollAnimation from "react-animate-on-scroll";
 import { IconInfoItem } from "../_shared/IconInfoItem";
 import { Carousel } from "antd";
@@ -64,8 +65,8 @@ export const Connected = () => {
                                 imageName="access"
                             >
                                 Idylworld (320 Acres) is located on the western side of Pune off the Pune-Lavasa Road in
-                                Botharwadi Village. Idylworld is accessible via 4 routes - Hinjewadi, Chandani Chowk,
-                                Khadakwasla & Mulshi.
+                                Botharwadi Village. Idylworld is accessible via 4 routes - National Highway (10 min), Pune
+                                Ring Road Metro (20 min),Hinjewadi (30 min), Chandani Chowk (30 min).
                             </IconInfoItem>
                             <IconInfoItem
                                 color="green"
@@ -97,8 +98,8 @@ export const Connected = () => {
                                 width="350px"
                                 imageName="zoom"
                             >
-                                Zoom and continue your digital presence with speedy WiFi. Idylworld has already
-                                installed an outdoor mesh WiFi network.
+                                Zoom and continue your digital presence with speedy WiFi. Idylworld is in the process of
+                                installing an outdoor mesh WiFi network.
                             </IconInfoItem>
                             <IconInfoItem
                                 color="orange"
@@ -116,8 +117,9 @@ export const Connected = () => {
                                 width="350px"
                                 imageName="easy-access-to-malls-and-movie-theaters"
                             >
-                                Idylworld is within 25 kms of movie theatres and malls such as Westend Mall and Pavilion
-                                Mall.
+                                Idylworld is within 25 kms of movie theatres and malls such as Westend Mall (Aundh),
+                                Pavilion Mall (Shivaji Nagar), Xion Mall (Hinjewadi) and Balewadi High Street (Baner).
+
                             </IconInfoItem>
                         </IconInfoItemContainer>
                     </ScrollAnimation>
@@ -128,10 +130,10 @@ export const Connected = () => {
 };
 
 // keep this here for the future
-{
-    /* <CarouselContainer autoplay>
-                        <CarouselImage src="https://idylworld-static.sgp1.digitaloceanspaces.com/puneisgoingwestlargeimage.png" />
-                        <CarouselImage src="https://idylworld-static.sgp1.digitaloceanspaces.com/puneisgoingwestlargeimage.png" />
-                        <CarouselImage src="https://idylworld-static.sgp1.digitaloceanspaces.com/puneisgoingwestlargeimage.png" />
-                    </CarouselContainer> */
-}
+// {
+//     <CarouselContainer autoplay>
+//         <CarouselImage src="https://idylworld-static.sgp1.digitaloceanspaces.com/puneisgoingwestlargeimage.png" />
+//         <CarouselImage src="https://idylworld-static.sgp1.digitaloceanspaces.com/puneisgoingwestlargeimage.png" />
+//         <CarouselImage src="https://idylworld-static.sgp1.digitaloceanspaces.com/puneisgoingwestlargeimage.png" />
+//     </CarouselContainer>
+// }
