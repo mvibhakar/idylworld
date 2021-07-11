@@ -9,12 +9,13 @@ import {
     Text,
     ContentImage,
     IconInfoItemContainer,
-    CarouselImage
+    CarouselImage,
 } from "../_shared";
 import { Carousel } from 'antd';
 import ScrollAnimation from "react-animate-on-scroll";
 import "video-react/dist/video-react.css";
 import { IconInfoItem } from "../_shared/IconInfoItem";
+import { Carousel } from "antd";
 export const Community = () => {
     return (
         <Main>
@@ -23,9 +24,26 @@ export const Community = () => {
                     <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                         <SectionHeader color={yellow}>Belong to a Hill Community</SectionHeader>
                         <Carousel autoplay>
-                            <CarouselImage src="https://idylworld-static.sgp1.digitaloceanspaces.com/Copy%20of%20IMG_5192.jpg" width="400px"></CarouselImage>
-                            <CarouselImage src="https://idylworld-static.sgp1.digitaloceanspaces.com/abundance.png" width="400px"></CarouselImage>
-                            <CarouselImage src="" width="400px"></CarouselImage>
+                            <CarouselImage
+                                src="https://idylworld-static.sgp1.digitaloceanspaces.com/master%20plan%20satellite.png"
+                                alt="community"
+                            />
+                            <CarouselImage
+                                src="https://idylworld-static.sgp1.digitaloceanspaces.com/DJI_0041%20%282%29.jpg"
+                                alt="community"
+                            />
+                            <CarouselImage
+                                src="https://idylworld-static.sgp1.digitaloceanspaces.com/DJI_0084%20%282%29.jpg"
+                                alt="community"
+                            />
+                            <CarouselImage
+                                src="https://idylworld-static.sgp1.digitaloceanspaces.com/IMG_4052.jpg"
+                                alt="community"
+                            />
+                            <CarouselImage
+                                src="https://idylworld-static.sgp1.digitaloceanspaces.com/IMG_20190728_134042801.jpg"
+                                alt="community"
+                            />
                         </Carousel>
                     </ScrollAnimation>
                 </ContentContainer>
@@ -34,19 +52,19 @@ export const Community = () => {
                 <ContentContainer>
                     <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                         <IconInfoItemContainer>
-                            <IconInfoItem
-                                color="yellow"
-                                title="invest wisely"
-                                width="350px"
-                                imageName="invest"
-                            >
+                            <IconInfoItem color="blue" title="invest wisely" width="350px" imageName="invest">
                                 You invest intelligently, you benefit personally, but when you invest wisely & ethically
                                 the whole world benefits. Investment in a genuinely eco friendly, ethical & socially
                                 conscious community like Idylworld will help the community and additionally help change
                                 the narrative and trend towards taking care of the environment, which is needed most
                                 urgently.
                             </IconInfoItem>
-                            <IconInfoItem color="green" title="become an influencer" width="350px" imageName="become-an-influencer">
+                            <IconInfoItem
+                                color="yellow"
+                                title="become an influencer"
+                                width="350px"
+                                imageName="become-an-influencer"
+                            >
                                 Be COOL, be a part of Idylworld. Reduce waste, Re-use what you can & Recycle. Host
                                 outdoor events, Celebrate festivals.
                             </IconInfoItem>
@@ -74,18 +92,13 @@ export const Community = () => {
                                 Idylworld has closely worked with botanists, outdoor explorers and locals to create a
                                 safe bubble where humans & flora/fauna can coexist & explore unadulterated nature.
                             </IconInfoItem>
-                            <IconInfoItem
-                                color="yellow"
-                                title="play sports"
-                                width="350px"
-                                imageName="play"
-                            >
+                            <IconInfoItem color="blue" title="play sports" width="350px" imageName="play">
                                 Idylworld Sports Village will provide the indoor/outdoor space/facility to play active
                                 sports at professional or amateur level. For the fitness freak, there are tons of
                                 hike/trek/run/jog possibilities. Idylworld has perfect spots for group meditation
                                 sessions.
                             </IconInfoItem>
-                            <IconInfoItem color="green" title="perform arts" width="350px" imageName="discover">
+                            <IconInfoItem color="yellow" title="perform arts" width="350px" imageName="discover">
                                 Idylworld Arts Village will provide the platform to the enthusiasts interested in
                                 exploring arts to have fun & experience therapeutic benefits of different modes of
                                 expression.

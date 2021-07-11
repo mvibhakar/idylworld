@@ -10,11 +10,12 @@ import {
     IconInfoItemContainer,
     ContentImage,
     H3,
-    CarouselImage
+    CarouselImage,
 } from "../_shared";
 import { Carousel } from 'antd';
 import { IconInfoItem } from "../_shared/IconInfoItem";
 import ScrollAnimation from "react-animate-on-scroll";
+import { Carousel } from "antd";
 
 export const Healthful = () => {
     return (
@@ -24,10 +25,23 @@ export const Healthful = () => {
                     <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                         <SectionHeader color={orange}>Be Healthy</SectionHeader>
                         <Carousel autoplay>
-                            <CarouselImage src="https://idylworld-static.sgp1.digitaloceanspaces.com/13.jpeg" width="400px"></CarouselImage>
-                            <CarouselImage src="https://idylworld-static.sgp1.digitaloceanspaces.com/abundance.png" width="400px"></CarouselImage>
+                            <CarouselImage
+                                src="https://idylworld-static.sgp1.digitaloceanspaces.com/IMG_0304.jpg"
+                                alt="healthful"
+                            />
+                            <CarouselImage
+                                src="https://idylworld-static.sgp1.digitaloceanspaces.com/IMG_0298.jpg"
+                                alt="healthful"
+                            />
+                            <CarouselImage
+                                src="https://idylworld-static.sgp1.digitaloceanspaces.com/DJI_0079%20%282%29.jpg"
+                                alt="healthful"
+                            />
+                            <CarouselImage
+                                src="https://idylworld-static.sgp1.digitaloceanspaces.com/GRU_6877.jpg"
+                                alt="healthful"
+                            />
                         </Carousel>
-
                     </ScrollAnimation>
                 </ContentContainer>
             </VariableHeightSection>
@@ -50,10 +64,12 @@ export const Healthful = () => {
                                 Since there is no major metro between Idylworld & the ocean, the wind mostly comes from the west, blowing across virgin forests, ensuring a pure & oxygenated breathing environment. Also, over 7000 acres of reserved afforestation zones around the Idylworld translate into a lower density of development & purer air.
                             </IconInfoItem>
                             <IconInfoItem color="brown" title="rich soil" width="350px" imageName="farm">
-                                Practically everything can grow here, since the soil is rich, unadulterated by chemicals and made richer by composting.
+                                Practically everything can grow here, since the soil is rich, unadulterated by chemicals
+                                and made richer by composting.
                             </IconInfoItem>
-                            <IconInfoItem color="orange" title="yoga & meditation" width="350px" imageName="unite">
-                                Idylworld is the perfect place to unite body, mind and spirit. Its quiet serenity is the ideal environment to nurture your yoga and meditation practices.
+                            <IconInfoItem color="blue" title="yoga & meditation" width="350px" imageName="unite">
+                                Idylworld is the perfect place to unite body, mind and spirit. Its quiet serenity is the
+                                ideal environment to nurture your yoga and meditation practices.
                             </IconInfoItem>
                             <IconInfoItem color="green" title="nature walks & hikes" width="350px" imageName="hike">
                                 Hike all day long at Idylworld with over 30 kms.of roads, trails & pathways. Jog at Idylworld Sports Village with breeze caressing your face & eyes feasting on beautiful views.
@@ -72,6 +88,6 @@ export const Healthful = () => {
                     </ScrollAnimation>
                 </ContentContainer>
             </VariableHeightSection>
-        </Main >
+        </Main>
     );
 };

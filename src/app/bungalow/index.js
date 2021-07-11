@@ -1,5 +1,5 @@
 import React from "react";
-import { green, yellow } from "../../utils";
+import { green, yellow, brown, blue, orange } from "../../utils";
 import {
     Main,
     VariableHeightSection,
@@ -9,11 +9,14 @@ import {
     Text,
     IconInfoItemContainer,
     CarouselImage,
+    CarouselImageWithoutFit,
 } from "../_shared";
 import { Carousel } from 'antd';
 import ScrollAnimation from "react-animate-on-scroll";
 import "video-react/dist/video-react.css";
 import { IconInfoItem } from "../_shared/IconInfoItem";
+import { Carousel } from "antd";
+
 export const Bungalow = () => {
     return (
         <Main>
@@ -22,9 +25,38 @@ export const Bungalow = () => {
                     <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                         <SectionHeader color={yellow}>Live Large</SectionHeader>
                         <Carousel autoplay>
-                            <CarouselImage src="https://idylworld-static.sgp1.digitaloceanspaces.com/DSC_3367%20(1).jpg" width="400px"></CarouselImage>
-                            <CarouselImage src="https://idylworld-static.sgp1.digitaloceanspaces.com/IMG_5228%202.jpg" width="400px"></CarouselImage>
-                            <CarouselImage src="https://idylworld-static.sgp1.digitaloceanspaces.com/DJI_0054%20(1).jpg" width="400px"></CarouselImage>
+                            <CarouselImageWithoutFit
+                                src="https://idylworld-static.sgp1.digitaloceanspaces.com/Living%20Room%20%281%29.jpg"
+                                alt="healthful"
+                            />
+                            <CarouselImage
+                                src="https://idylworld-static.sgp1.digitaloceanspaces.com/WhatsApp%20Image%202021-06-13%20at%2011.19.55%20PM.jpeg"
+                                alt="healthful"
+                            />
+                            <CarouselImage
+                                src="https://idylworld-static.sgp1.digitaloceanspaces.com/WhatsApp%20Image%202021-06-13%20at%2011.19.56%20PM.jpeg"
+                                alt="healthful"
+                            />
+                            <CarouselImage
+                                src="https://idylworld-static.sgp1.digitaloceanspaces.com/WhatsApp%20Image%202021-06-14%20at%205.31.25%20AM.jpeg"
+                                alt="healthful"
+                            />
+                            <CarouselImage
+                                src="https://idylworld-static.sgp1.digitaloceanspaces.com/WhatsApp%20Image%202021-06-14%20at%205.31.26%20AM.jpeg"
+                                alt="healthful"
+                            />
+                            <CarouselImage
+                                src="https://idylworld-static.sgp1.digitaloceanspaces.com/WhatsApp%20Image%202021-06-14%20at%205.31.30%20AM%20%281%29.jpeg"
+                                alt="healthful"
+                            />
+                            <CarouselImage
+                                src="https://idylworld-static.sgp1.digitaloceanspaces.com/WhatsApp%20Image%202021-06-14%20at%205.31.30%20AM.jpeg"
+                                alt="healthful"
+                            />
+                            <CarouselImage
+                                src="https://idylworld-static.sgp1.digitaloceanspaces.com/WhatsApp%20Image%202021-06-14%20at%205.31.31%20AM.jpeg"
+                                alt="healthful"
+                            />
                         </Carousel>
                     </ScrollAnimation>
                 </ContentContainer>

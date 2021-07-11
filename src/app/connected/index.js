@@ -9,11 +9,13 @@ import {
     ContentContainer,
     ContentImage,
     IconInfoItemContainer,
-    CarouselImage
+    CarouselImage,
 } from "../_shared";
 import { Carousel } from 'antd';
 import ScrollAnimation from "react-animate-on-scroll";
 import { IconInfoItem } from "../_shared/IconInfoItem";
+import { Carousel } from "antd";
+
 export const Connected = () => {
     return (
         <Main>
@@ -21,10 +23,30 @@ export const Connected = () => {
                 <ContentContainer>
                     <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                         <SectionHeader color={blue}>Stay Connected</SectionHeader>
-                        <Carousel autoplay>
-                            <CarouselImage src="https://idylworld-static.sgp1.digitaloceanspaces.com/DJI_0079%20(2).jpg" width="400px"></CarouselImage>
-                            <CarouselImage src="https://idylworld-static.sgp1.digitaloceanspaces.com/DJI_0041%20(2).jpg" width="400px"></CarouselImage>
+                        <Carousel>
+                            <CarouselImage
+                                src="https://idylworld-static.sgp1.digitaloceanspaces.com/DJI_0105%20%282%29.jpg"
+                                alt="connected"
+                            />
+                            <CarouselImage
+                                src="https://idylworld-static.sgp1.digitaloceanspaces.com/IMG_4031.jpg"
+                                alt="connected"
+                            />
+                            <CarouselImage
+                                src="https://idylworld-static.sgp1.digitaloceanspaces.com/DJI_0142%20%283%29.jpg"
+                                alt="connected"
+                            />
+                            <CarouselImage
+                                src="https://idylworld-static.sgp1.digitaloceanspaces.com/IMG_2301.jpg"
+                                alt="connected"
+                            />
                         </Carousel>
+                    </ScrollAnimation>
+                </ContentContainer>
+            </VariableHeightSection>
+            <VariableHeightSection>
+                <ContentContainer>
+                    <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                         <IconInfoItemContainer>
                             <IconInfoItem
                                 color="yellow"
@@ -37,7 +59,7 @@ export const Connected = () => {
                                 chaos and puts you back in touch with yourself.
                             </IconInfoItem>
                             <IconInfoItem
-                                color="green"
+                                color="orange"
                                 title="easy access to Mumbai & Pune"
                                 width="350px"
                                 imageName="access"
@@ -47,7 +69,7 @@ export const Connected = () => {
                                 Ring Road Metro (20 min),Hinjewadi (30 min), Chandani Chowk (30 min).
                             </IconInfoItem>
                             <IconInfoItem
-                                color="orange"
+                                color="green"
                                 title="easy access to schools and colleges"
                                 width="350px"
                                 imageName="learn"
@@ -80,7 +102,7 @@ export const Connected = () => {
                                 installing an outdoor mesh WiFi network.
                             </IconInfoItem>
                             <IconInfoItem
-                                color="green"
+                                color="orange"
                                 title="easy access to booming economy"
                                 width="350px"
                                 imageName="easy-access-to-booming-economy"
@@ -90,13 +112,14 @@ export const Connected = () => {
                                 Bengaluru. Pune features among India’s top 5 real estate destinations.
                             </IconInfoItem>
                             <IconInfoItem
-                                color="orange"
+                                color="green"
                                 title="easy access to malls and movie theaters"
                                 width="350px"
                                 imageName="easy-access-to-malls-and-movie-theaters"
                             >
                                 Idylworld is within 25 kms of movie theatres and malls such as Westend Mall (Aundh),
                                 Pavilion Mall (Shivaji Nagar), Xion Mall (Hinjewadi) and Balewadi High Street (Baner).
+
                             </IconInfoItem>
                         </IconInfoItemContainer>
                     </ScrollAnimation>
