@@ -11,11 +11,11 @@ import {
     IconInfoItemContainer,
     CarouselImage,
 } from "../_shared";
-import { Carousel } from 'antd';
+import { Carousel } from "antd";
 import ScrollAnimation from "react-animate-on-scroll";
 import "video-react/dist/video-react.css";
 import { IconInfoItem } from "../_shared/IconInfoItem";
-import { Carousel } from "antd";
+
 export const Community = () => {
     return (
         <Main>
@@ -113,7 +113,8 @@ export const Community = () => {
                                 width="350px"
                                 imageName="meditate"
                             >
-                                Masoba Temple at Idylworld old temple that is an institution for the surrounding communities. A communal place for satsang on festivals and special occasions.
+                                Masoba Temple at Idylworld old temple that is an institution for the surrounding
+                                communities. A communal place for satsang on festivals and special occasions.
                             </IconInfoItem>
                             <IconInfoItem color="brown" title="pathways & trails" width="350px" imageName="hike">
                                 At Idylworld, we have planned and paved pathways to make zipping across the community

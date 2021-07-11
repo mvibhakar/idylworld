@@ -11,10 +11,9 @@ import {
     IconInfoItemContainer,
     CarouselImage,
 } from "../_shared";
-import { Carousel } from 'antd';
+import { Carousel } from "antd";
 import ScrollAnimation from "react-animate-on-scroll";
 import { IconInfoItem } from "../_shared/IconInfoItem";
-import { Carousel } from "antd";
 
 export const Connected = () => {
     return (
@@ -65,8 +64,8 @@ export const Connected = () => {
                                 imageName="access"
                             >
                                 Idylworld (320 Acres) is located on the western side of Pune off the Pune-Lavasa Road in
-                                Botharwadi Village. Idylworld is accessible via 4 routes - National Highway (10 min), Pune
-                                Ring Road Metro (20 min),Hinjewadi (30 min), Chandani Chowk (30 min).
+                                Botharwadi Village. Idylworld is accessible via 4 routes - National Highway (10 min),
+                                Pune Ring Road Metro (20 min),Hinjewadi (30 min), Chandani Chowk (30 min).
                             </IconInfoItem>
                             <IconInfoItem
                                 color="green"
@@ -119,7 +118,6 @@ export const Connected = () => {
                             >
                                 Idylworld is within 25 kms of movie theatres and malls such as Westend Mall (Aundh),
                                 Pavilion Mall (Shivaji Nagar), Xion Mall (Hinjewadi) and Balewadi High Street (Baner).
-
                             </IconInfoItem>
                         </IconInfoItemContainer>
                     </ScrollAnimation>
