@@ -52,6 +52,10 @@ export const Abundant = () => {
                                 src="https://idylworld-static.sgp1.digitaloceanspaces.com/IMG_4028.jpg"
                                 alt="abundant"
                             />
+                            <CarouselImage
+                                src="https://sites.google.com/a/ideawings.com/idylworldclassic/_/rsrc/1577198210595/config/pagetemplates/idylworld-classic-2019/54.jpg"
+                                alt="abundant"
+                            />
                         </Carousel>
                     </ScrollAnimation>
                 </ContentContainer>

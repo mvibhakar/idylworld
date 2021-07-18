@@ -40,6 +40,14 @@ export const Healthful = () => {
                                 src="https://idylworld-static.sgp1.digitaloceanspaces.com/GRU_6877.jpg"
                                 alt="healthful"
                             />
+                            <CarouselImage
+                                src="https://sites.google.com/a/ideawings.com/idylworldclassic/_/rsrc/1577197827957/config/pagetemplates/idylworld-classic-2019/60.jpg"
+                                alt="healthful"
+                            />
+                            <CarouselImage
+                                src="https://sites.google.com/a/ideawings.com/idylworldclassic/_/rsrc/1577198843603/config/pagetemplates/idylworld-classic-2019/59.jpg"
+                                alt="healthful"
+                            />
                         </Carousel>
                     </ScrollAnimation>
                 </ContentContainer>

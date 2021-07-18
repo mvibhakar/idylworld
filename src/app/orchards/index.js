@@ -30,6 +30,22 @@ export const Orchards = () => {
                                 src="https://idylworld-static.sgp1.digitaloceanspaces.com/abundance.png"
                                 width="400px"
                             ></CarouselImage>
+                            <CarouselImage
+                                src="https://sites.google.com/a/ideawings.com/idylworldclassic/_/rsrc/1577199889050/config/pagetemplates/idylworld-classic-2019/45.jpg"
+                                width="400px"
+                            />
+                            <CarouselImage
+                                src="https://sites.google.com/a/ideawings.com/idylworldclassic/_/rsrc/1577199451372/config/pagetemplates/idylworld-classic-2019/34.jpg"
+                                width="400px"
+                            />
+                            <CarouselImage
+                                src="https://sites.google.com/a/ideawings.com/idylworldclassic/_/rsrc/1577198115353/config/pagetemplates/idylworld-classic-2019/51.jpg"
+                                width="400px"
+                            />
+                            <CarouselImage
+                                src="https://sites.google.com/a/ideawings.com/idylworldclassic/_/rsrc/1577199856589/config/pagetemplates/idylworld-classic-2019/44.jpg"
+                                width="400px"
+                            />
                         </Carousel>
                         <SectionSubHeader>
                             One acre at Idylworld would allow any resident to be exceptionally self-sufficient.
