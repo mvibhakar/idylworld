@@ -46,15 +46,6 @@ export const Orchards = () => {
                                 src="https://sites.google.com/a/ideawings.com/idylworldclassic/_/rsrc/1577199856589/config/pagetemplates/idylworld-classic-2019/44.jpg"
                                 width="400px"
                             />
-                        </Carousel>
-                        <SectionSubHeader>
-                            One acre at Idylworld would allow any resident to be exceptionally self-sufficient.
-                            Residents can grow the family’s worth of fruits & veggies, house a large solar array and
-                            windmill for energy, store excess wind or solar as hydroelectric energy, harvest rainwater
-                            to fulfill all their needs, grow many trees, build a house (or two), and still have enough
-                            left over for private walking trails and nature nooks!
-                        </SectionSubHeader>
-                        <Carousel autoplay>
                             <CarouselImage
                                 src="https://idylworld-static.sgp1.digitaloceanspaces.com/DJI_0054%20%281%29.jpg"
                                 alt="pune orchards"
@@ -76,6 +67,13 @@ export const Orchards = () => {
                                 alt="pune orchards"
                             />
                         </Carousel>
+                        <SectionSubHeader>
+                            One acre at Idylworld would allow any resident to be exceptionally self-sufficient.
+                            Residents can grow the family’s worth of fruits & veggies, house a large solar array and
+                            windmill for energy, store excess wind or solar as hydroelectric energy, harvest rainwater
+                            to fulfill all their needs, grow many trees, build a house (or two), and still have enough
+                            left over for private walking trails and nature nooks!
+                        </SectionSubHeader>
                     </ScrollAnimation>
                 </ContentContainer>
             </VariableHeightSection>
