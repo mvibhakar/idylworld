@@ -44,6 +44,14 @@ export const Community = () => {
                                 src="https://idylworld-static.sgp1.digitaloceanspaces.com/IMG_20190728_134042801.jpg"
                                 alt="community"
                             />
+                            <CarouselImage
+                                src="https://sites.google.com/a/ideawings.com/idylworldclassic/_/rsrc/1577199932047/config/pagetemplates/idylworld-classic-2019/47.jpg"
+                                alt="community"
+                            />
+                            <CarouselImage
+                                src="https://sites.google.com/a/ideawings.com/idylworldclassic/_/rsrc/1577199910542/config/pagetemplates/idylworld-classic-2019/46.jpg"
+                                alt="community"
+                            />
                         </Carousel>
                     </ScrollAnimation>
                 </ContentContainer>

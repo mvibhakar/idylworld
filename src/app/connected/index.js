@@ -24,7 +24,7 @@ export const Connected = () => {
                         <SectionHeader color={blue}>Stay Connected</SectionHeader>
                         <Carousel>
                             <CarouselImage
-                                src="https://idylworld-static.sgp1.digitaloceanspaces.com/DJI_0105%20%282%29.jpg"
+                                src="https://sites.google.com/a/ideawings.com/idylworldclassic/_/rsrc/1577198586650/config/pagetemplates/idylworld-classic-2019/06.jpg"
                                 alt="connected"
                             />
                             <CarouselImage
@@ -36,7 +36,15 @@ export const Connected = () => {
                                 alt="connected"
                             />
                             <CarouselImage
-                                src="https://idylworld-static.sgp1.digitaloceanspaces.com/IMG_2301.jpg"
+                                src="https://sites.google.com/a/ideawings.com/idylworldclassic/_/rsrc/1577200376089/config/pagetemplates/idylworld-classic-2019/09.jpg"
+                                alt="connected"
+                            />
+                            <CarouselImage
+                                src="https://sites.google.com/a/ideawings.com/idylworldclassic/_/rsrc/1577200515512/config/pagetemplates/idylworld-classic-2019/10.jpg"
+                                alt="connected"
+                            />
+                            <CarouselImage
+                                src="https://sites.google.com/a/ideawings.com/idylworldclassic/_/rsrc/1577200583551/config/pagetemplates/idylworld-classic-2019/11.jpg"
                                 alt="connected"
                             />
                         </Carousel>
