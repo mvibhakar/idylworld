@@ -17,11 +17,11 @@ export const Footer = () => {
                 <FooterHeader>Chat With Us</FooterHeader>
                 <FooterItem>
                     <FooterItemIcon src={PhoneBlackIcon} alt="phone" side="left" />
-                    <ContentText>+91 83083 29038</ContentText>
+                    <ContentText>+91 8554 9822 03</ContentText>
                 </FooterItem>
                 <FooterItem>
                     <FooterItemIcon src={EmailBlackIcon} alt="email" side="left" />
-                    <ContentText>info@idylworld.com</ContentText>
+                    <ContentText>sales@idylworld.com</ContentText>
                 </FooterItem>
                 <FooterItem>
                     <FooterItemIcon src={LocationBlackIcon} alt="location" side="left" />
