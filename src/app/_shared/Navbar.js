@@ -196,7 +196,7 @@ export const Navbar = () => {
                             <div style={{ borderTop: "1px solid black" }}>
                                 <BottomBarItem>MAHARERA P52100023443</BottomBarItem>
                                 <BottomBarItem>+91 8554 9822 03</BottomBarItem>
-                                <BottomBarItem>info@idylworld.com</BottomBarItem>
+                                <BottomBarItem>sales@idylworld.com</BottomBarItem>
                             </div>
                         </Drawer>
                     </nav>
@@ -210,7 +210,7 @@ export const Navbar = () => {
                 </FooterItem>
                 <FooterItem>
                     <FooterItemIcon src={EmailBlackIcon} alt="email" side="left" />
-                    <ContentText>info@idylworld.com</ContentText>
+                    <ContentText>sales@idylworld.com</ContentText>
                 </FooterItem>
             </BottomBarContainer>
         </>
