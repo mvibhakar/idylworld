@@ -258,48 +258,6 @@ export const Home = () => {
                         </ScrollAnimation>
                     </ContentContainer>
                 </VariableHeightSection>
-                <VariableHeightSection>
-                    <ContentContainer>
-                        <ScrollAnimation animateIn="fadeIn" animateOnce={true} duration={2}>
-                            <SectionHeader color={yellow}>About Our Team</SectionHeader>
-                            <SectionSubHeader>Ashish Vibhakar</SectionSubHeader>
-                            <Text>
-                                Ashish has been an entrepreneur since 1989, having built multiple companies in the USA &
-                                India. Prior to 1989, Ashish was a software research scientist at Xerox PARC, Silicon
-                                Valley, USA. Ashish’s interests include music especially Indian Classical,
-                                hiking/trekking & outdoors, travel, people, cooking, reading, dreams of making India and
-                                this world a better place.
-                            </Text>
-                            <SectionSubHeader>Jayant Kaneria</SectionSubHeader>
-                            <Text>
-                                Jayantbhai is the Managing Director of Mont Vert Homes. At Idylworld, he plays the role
-                                of a mentor and an advisor.
-                            </Text>
-                            <SectionSubHeader>Narendra Jain</SectionSubHeader>
-                            <Text>
-                                Narendra is the Managing Director of Arham Corporation specialising in real estate and
-                                development for more than 15 years. At Idylworld he is responsible for sales, legal and
-                                liaisoning.
-                            </Text>
-                            <SectionSubHeader>Ravi Kapadia</SectionSubHeader>
-                            <Text>Ravi is a medical research scientist specialising in sustainable communities.</Text>
-                            <SectionSubHeader>Parul Vibhakar</SectionSubHeader>
-                            <Text>
-                                Parul has been a corporate lawyer in India & USA for over 34 years. She has been
-                                instrumental in multiple successful startups. Her interests include education,
-                                environment, gardening, travelling, fitness, reading, painting, music and Indian
-                                classical dance.
-                            </Text>
-                            <SectionSubHeader>Ajay Parekh</SectionSubHeader>
-                            <Text>
-                                Ajay has been dealing in real estate for over 20 years. Ajay’s interests include travel,
-                                cricket & other outdoor activities.
-                            </Text>
-                            <SectionSubHeader>Indrajeet Singh</SectionSubHeader>
-                            <Text>Indrajit has been involved in sales for over 5 years</Text>
-                        </ScrollAnimation>
-                    </ContentContainer>
-                </VariableHeightSection>
             </Main>
         </>
     );
